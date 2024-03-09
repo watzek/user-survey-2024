@@ -11,7 +11,7 @@ website:
     search: true   
     contents:
       - href: index.qmd
-      
+      - href: userSurvey.pdf
 
 format:
   html:

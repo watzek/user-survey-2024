@@ -2,31 +2,31 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Untitled",
+    "title": "Watzek Library User Survey, 2024",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.",
+    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.",
     "crumbs": [
-      "Untitled"
+      "Watzek Library User Survey, 2024"
     ]
   },
   {
-    "objectID": "index.html#quarto",
-    "href": "index.html#quarto",
-    "title": "Untitled",
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Watzek Library User Survey, 2024",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.",
+    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.",
     "crumbs": [
-      "Untitled"
+      "Watzek Library User Survey, 2024"
     ]
   },
   {
-    "objectID": "index.html#running-code",
-    "href": "index.html#running-code",
-    "title": "Untitled",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).",
+    "objectID": "index.html#survey-team",
+    "href": "index.html#survey-team",
+    "title": "Watzek Library User Survey, 2024",
+    "section": "Survey Team",
+    "text": "Survey Team\n\nJim Bunnelle\nEJ Carter\nHannah Crummé\nElaine Hirsch\nJen Jacobs (team lead), Associate Director for Collections and Access\nErica Jensen,\nJeremy McWilliams, Head of Digital Services",
     "crumbs": [
-      "Untitled"
+      "Watzek Library User Survey, 2024"
     ]
   }
 ]

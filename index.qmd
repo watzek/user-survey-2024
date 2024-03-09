@@ -1,26 +1,25 @@
 ---
-title: "Untitled"
+title: "Watzek Library User Survey, 2024"
 format: html
 editor: visual
 ---
 
-## Quarto
+## Background
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.
 
-## Running Code
+## Survey Team
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+-   Jim Bunnelle
 
-```{r}
-1 + 1
-```
+-   EJ Carter
 
-You can add options to executable code like this
+-   Hannah Crummé
 
-```{r}
-#| echo: false
-2 * 2
-```
+-   Elaine Hirsch
 
-The `echo: false` option disables the printing of code (only output is displayed).
+-   Jen Jacobs (team lead), Associate Director for Collections and Access
+
+-   Erica Jensen,
+
+-   Jeremy McWilliams, Head of Digital Services
