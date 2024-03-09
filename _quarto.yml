@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Watzek User Survey, 2024"
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    logo: _images/owl.png
+    search: true   
+    contents:
+      - href: index.qmd
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
