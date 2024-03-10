@@ -83,8 +83,8 @@
     "objectID": "frequency.html#general-borrowing-returning",
     "href": "frequency.html#general-borrowing-returning",
     "title": "Frequency of Visits",
-    "section": "General borrowing / returning",
-    "text": "General borrowing / returning\nHow often do you visit the library for borrowing or returning books (other than textbooks)?\n\nAll UsersUndergraduatesGraduates",
+    "section": "General Borrowing & Returning",
+    "text": "General Borrowing & Returning\nHow often do you visit the library for borrowing or returning books (other than textbooks)?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
       "Frequency of Visits"
     ]
@@ -197,6 +197,16 @@
     "text": "By Major\n\n\n\n\n\n\nMajor\ncount\npercent\n\n\n\n\nPSY\n22\n9.7\n\n\nBIO\n21\n9.3\n\n\nPMHC\n18\n7.9\n\n\nUndecided\n17\n7.5\n\n\nENG\n13\n5.7\n\n\nENVS\n13\n5.7\n\n\nSPSY\n13\n5.7\n\n\nCS/MATH\n12\n5.3\n\n\nSOAN\n12\n5.3\n\n\nHIST\n9\n4.0\n\n\nMCFT\n8\n3.5\n\n\nRHMS\n8\n3.5\n\n\nAT\n7\n3.1\n\n\nBCMB\n7\n3.1\n\n\nTH\n6\n2.6\n\n\nART\n5\n2.2\n\n\nCHEM\n4\n1.8\n\n\nEDLL\n4\n1.8\n\n\nPMHCA\n4\n1.8\n\n\nWL\n4\n1.8\n\n\nECON\n3\n1.3\n\n\nMUS\n3\n1.3\n\n\nPOLS\n3\n1.3\n\n\nIA\n2\n0.9\n\n\nSAA\n2\n0.9\n\n\nNA\n2\n0.9\n\n\nCLAS\n1\n0.4\n\n\nPHIL\n1\n0.4\n\n\nPHYS\n1\n0.4\n\n\nRELS\n1\n0.4\n\n\nSPED\n1\n0.4\n\n\nTotal\n227\n100.0",
     "crumbs": [
       "Demographics"
+    ]
+  },
+  {
+    "objectID": "frequency.html#viewing-an-exhibit",
+    "href": "frequency.html#viewing-an-exhibit",
+    "title": "Frequency of Visits",
+    "section": "Viewing an Exhibit",
+    "text": "Viewing an Exhibit\nHow often do you visit the library for viewing an exhibit?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
     ]
   }
 ]

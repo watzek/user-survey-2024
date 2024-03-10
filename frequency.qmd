@@ -105,7 +105,7 @@ frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, GRAD Us
 :::
 
 
-## General borrowing / returning
+## General Borrowing & Returning
 How often do you visit the library for ***borrowing or returning books (other than textbooks)***?
 
 ::: {.panel-tabset}
@@ -165,7 +165,7 @@ frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, GRAD Users", "gra
 
 
 
-## Viewing and Exhibit
+## Viewing an Exhibit
 How often do you visit the library for ***viewing an exhibit***?
 
 ::: {.panel-tabset}
