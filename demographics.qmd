@@ -18,6 +18,11 @@ userData<-read_csv("data/anonymizedData.csv")
 ```{r}
 totalUsers<-nrow(userData)
 
+```
+
+Total respondants: `r totalUsers`.
+
+```{r}
 # year in school
 userData %>% 
   group_by(yearInSchool) %>%
