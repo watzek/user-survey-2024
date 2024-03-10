@@ -6,7 +6,7 @@ editor: visual
 
 ## Background
 
-During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.
+During the academic year of 2023-4, members of Watzek Library staff developed and distributed a [survey](userSurvey.pdf){target="_blank"} to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.
 
 ## Survey Team
 

@@ -28,5 +28,25 @@
     "crumbs": [
       "Watzek Library User Survey, 2024"
     ]
+  },
+  {
+    "objectID": "survey.html",
+    "href": "survey.html",
+    "title": "Survey",
+    "section": "",
+    "text": "PDF Document",
+    "crumbs": [
+      "Survey"
+    ]
+  },
+  {
+    "objectID": "demographics.html",
+    "href": "demographics.html",
+    "title": "Demographics",
+    "section": "",
+    "text": "Year in School\ncount\npercent\n\n\n\n\nFirst-year student\n60\n26.4\n\n\nGraduate student\n58\n25.6\n\n\nSecond-year student\n40\n17.6\n\n\nJunior\n36\n15.9\n\n\nSenior\n33\n14.5\n\n\nTotal\n227\n100.0",
+    "crumbs": [
+      "Demographics"
+    ]
   }
 ]

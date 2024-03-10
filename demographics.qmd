@@ -1,4 +1,30 @@
 ---
 title: "Demographics"
 editor: visual
+execute:
+  echo: false
+  warning: false
 ---
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+```
+
+```{r}
+userData<-read_csv("data/anonymizedData.csv")
+```
+
+```{r}
+totalUsers<-nrow(userData)
+
+# year in school
+userData %>% 
+  group_by(yearInSchool) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(yearInSchool = "Total", count = totalUsers, percent = 100) %>%
+  rename("Year in School"=yearInSchool) %>%
+  kbl() %>%
+  kable_styling()
+```

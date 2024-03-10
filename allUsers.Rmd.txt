@@ -1,0 +1,319 @@
+---
+title: "Watzek User Survey Results"
+output: html_document
+---
+```{r message=FALSE, echo=FALSE, warning=FALSE, results='hide'}
+
+# load packages
+#list of packages
+packages<-c("tidyverse", "tidytext", "sentimentr", "gt", "gtsummary")
+
+# install packages not yet installed
+installed_packages<-packages %in% rownames(installed.packages())
+if(any(installed_packages==FALSE)){
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading, with library function
+invisible(lapply(packages, library, character.only=TRUE))
+
+
+```
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results='hide'}
+
+# load functions
+source("functions.R")
+
+# load cleaned data
+userData<-read_csv("../data/cleanedUserSurveyData.csv")
+
+
+```
+Winter, 2024
+
+
+### User Demographics
+
+Undergraduate and graduate students were invited to take the survey. 227 users responded. The following tables show self-reported user demographics:
+
+```{r message=FALSE, echo=FALSE, warning=FALSE}
+totalUsers<-nrow(userData)
+
+yearInSchool<-userData %>% 
+  group_by(yearInSchool) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(yearInSchool = "Total", count = totalUsers, percent = 100) %>%
+  rename("Year in School"=yearInSchool)
+
+majorInSchool<-userData %>% 
+  group_by(major) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(major = "Total", count = totalUsers, percent = 100) %>%
+  rename("Major"=major)
+
+
+divisionInSchool<-userData %>% 
+  group_by(division) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(division = "Total", count = totalUsers, percent = 100) %>%
+  rename("Division"=division)
+
+campus <- userData %>%
+  group_by(campus) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(campus = "Total", count = totalUsers, percent = 100) %>%
+  rename("Campus"=campus)
+
+
+gt(campus) %>%
+    tab_options(
+    data_row.padding = px(1),
+    table.align = "left"
+  )
+
+gt(yearInSchool) %>%
+  tab_options(
+    data_row.padding = px(1),
+    table.align = "left"
+  )
+
+gt(majorInSchool) %>%
+    tab_options(
+    data_row.padding = px(1),
+    table.align = "left"
+  )
+
+gt(divisionInSchool) %>%
+    tab_options(
+    data_row.padding = px(1),
+    table.align = "left"
+  )
+
+
+
+```
+
+---
+---
+
+### Survey Responses
+
+
+
+#### How often do you visit the library for the following needs? [Studying individually]
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, All Users", "allIndStudy.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, CAS Users", "casIndStudy.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD Users", "gradIndStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+```
+
+------------------------------------------------------------------------
+
+
+
+
+#### How often do you visit the library for the following needs? [Studying in a group]
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, All Users", "allGroupStudy.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, CAS Users", "casGroupStudy.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, GRAD Users", "gradGroupStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+#### How often do you visit the library for the following needs? [Borrowing textbooks from course reserves]
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+
+
+
+
+frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, All Users", "allCourseReserves.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, CAS Users", "casCourseReserves.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, GRAD Users", "gradCourseReserves.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+```
+
+#### How often do you visit the library for the following needs? [Borrowing or returning books (other than textbooks)]
+
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+
+
+
+frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, All Users", "allBorrowingBooks.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, CAS Users", "casBorrowingBooks.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, GRAD Users", "gradBorrowingBooks.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+```
+
+#### How often do you visit the library for the following needs? [Getting help from a librarian]
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+
+frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, All Users", "allGetHelp.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, CAS Users", "casGetHelp.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, GRAD Users", "gradGetHelp.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+#### How often do you visit the library for the following needs? [Viewing an exhibit]
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+#frequencyQuestion(userData, "frequencyExhibit", "Viewing Exhibits, All Users", "allViewExhibits.jpg", casOnly=FALSE, gradOnly = #FALSE)
+col<-"frequencyExhibit"
+lab<-"Viewing Exhibits"
+im<-"ViewExhibits"
+  
+  
+frequencyQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+#### How often do you visit the library for the following needs? [Printing]
+
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+#frequencyQuestion(userData, "frequencyPrinting", "Printing, All Users", "allPrinting.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+col<-"frequencyPrinting"
+lab<-"Printing"
+im<-"Printing"
+  
+  
+frequencyQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+
+```
+
+#### How often do you visit the library for the following needs? [Library computers (other than printing)]
+
+
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+#frequencyQuestion(userData, "frequencyComputers", "Computers, All Users", "allComputers.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+col<-"frequencyComputers"
+lab<-"Computers"
+im<-"Computers"
+  
+  
+frequencyQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+
+#### How often do you visit the library for the following needs? [Getting help from the IT Service Desk]
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+#frequencyQuestion(userData, "frequencyIT", "IT, All Users", "allIT.jpg", casOnly=FALSE, gradOnly = FALSE)
+col<-"frequencyIT"
+lab<-"IT"
+im<-"IT"
+  
+  
+frequencyQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+#### How often do you visit the library for the following needs? [Getting help at the Writing Center]
+
+```{r message=FALSE,  warning=FALSE, echo=FALSE}
+
+#frequencyQuestion(userData, "frequencyWriting", "Writing Center, All Users", "allIT.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+col<-"frequencyWriting"
+lab<-"Writing Center"
+im<-"Writing Center"
+  
+  
+frequencyQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+
+
+
+
+```{r}
+
+
+col<-"needsQuietStudy"
+lab<-"Queiet Study"
+im<-"needsQuietStudy"
+
+needsQuestion(userData, col, paste(lab,", All Users"), paste("all",im,".jpg", sep=""), casOnly=FALSE, gradOnly = FALSE)
+
+needsQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg", sep=""), casOnly=TRUE, gradOnly = FALSE)
+
+needsQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
+
+
+```
+
+
+
+
+
+
+
+
