@@ -26,6 +26,35 @@ totalUsers<-nrow(userData)
 
 #### Total respondants: `r totalUsers`.
 
+#### By Campus
+
+```{r}
+userData %>%
+  group_by(campus) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(campus = "Total", count = totalUsers, percent = 100) %>%
+  rename("Campus"=campus) %>%
+  kbl() %>%
+  kable_styling()
+  
+```
+
+#### By Division
+
+```{r}
+userData %>% 
+  group_by(division) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(division = "Total", count = totalUsers, percent = 100) %>%
+  rename("Division"=division) %>%
+  kbl() %>%
+  kable_styling()
+```
+
+#### 
+
 #### By Year in School
 
 ```{r}
@@ -53,29 +82,4 @@ userData %>%
   kable_styling()
 ```
 
-By Division
-
-```{r}
-userData %>% 
-  group_by(division) %>%
-  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
-  arrange(desc(count))%>%
-  add_row(division = "Total", count = totalUsers, percent = 100) %>%
-  rename("Division"=division) %>%
-  kbl() %>%
-  kable_styling()
-```
-
-By Campus
-
-```{r}
-userData %>%
-  group_by(campus) %>%
-  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
-  arrange(desc(count))%>%
-  add_row(campus = "Total", count = totalUsers, percent = 100) %>%
-  rename("Campus"=campus) %>%
-  kbl() %>%
-  kable_styling()
-  
-```
+#### 
