@@ -4,6 +4,10 @@ editor: visual
 execute:
   echo: false
   warning: false
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
 ---
 
 ```{r}
@@ -22,6 +26,8 @@ totalUsers<-nrow(userData)
 
 Total respondants: `r totalUsers`.
 
+#### By Year in School
+
 ```{r}
 # year in school
 userData %>% 
@@ -30,6 +36,19 @@ userData %>%
   arrange(desc(count))%>%
   add_row(yearInSchool = "Total", count = totalUsers, percent = 100) %>%
   rename("Year in School"=yearInSchool) %>%
+  kbl() %>%
+  kable_styling()
+```
+
+#### By Major
+
+```{r}
+userData %>% 
+  group_by(major) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(major = "Total", count = totalUsers, percent = 100) %>%
+  rename("Major"=major) %>%
   kbl() %>%
   kable_styling()
 ```
