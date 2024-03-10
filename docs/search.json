@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Watzek Library User Survey, 2024",
     "section": "",
-    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.",
+    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.\nSurvey team members met periodically in the fall and early winter to brainstorm and refine questions. By late January, the final survey questions were posted to a Google Form.",
     "crumbs": [
       "Watzek Library User Survey, 2024"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#background",
     "title": "Watzek Library User Survey, 2024",
     "section": "",
-    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.",
+    "text": "During the academic year of 2023-4, members of Watzek Library staff developed and distributed a survey to undergraduate and graduate students. The purpose was to gain feedback from students on Watzek Library resources, services, aspects of the building, and degree of helpfulness from staff.\nSurvey team members met periodically in the fall and early winter to brainstorm and refine questions. By late January, the final survey questions were posted to a Google Form.",
     "crumbs": [
       "Watzek Library User Survey, 2024"
     ]
@@ -207,6 +207,16 @@
     "text": "Viewing an Exhibit\nHow often do you visit the library for viewing an exhibit?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
       "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "index.html#survey-distribution",
+    "href": "index.html#survey-distribution",
+    "title": "Watzek Library User Survey, 2024",
+    "section": "Survey Distribution",
+    "text": "Survey Distribution\nThe survey was open from January 30th through February 18th. The survey was advertised via fliers, the Watzek newsletter, the Bark, the Grad School email list, and the IME list. Four random prizes of $25 in flex points were made available to incentivise participation.",
+    "crumbs": [
+      "Watzek Library User Survey, 2024"
     ]
   }
 ]
