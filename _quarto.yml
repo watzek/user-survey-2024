@@ -11,8 +11,8 @@ website:
     search: true   
     contents:
       - href: index.qmd
-      - href: userSurvey.pdf
-
+      - href: survey.qmd
+      - href: demographics.qmd
 format:
   html:
     theme: cosmo
