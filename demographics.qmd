@@ -4,15 +4,12 @@ editor: visual
 execute:
   echo: false
   warning: false
-format:
-  html:
-    code-fold: true
-    code-summary: "Show the code"
 ---
 
+
 ```{r}
-library(tidyverse)
-library(kableExtra)
+source("src/functions.R")
+loadPackages()
 ```
 
 ```{r}
@@ -24,7 +21,7 @@ totalUsers<-nrow(userData)
 
 ```
 
-#### Total respondants: `r totalUsers`.
+#### Total respondents: `r totalUsers`
 
 #### By Campus
 

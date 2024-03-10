@@ -2,7 +2,15 @@
 title: "Watzek Library User Survey, 2024"
 format: html
 editor: visual
+execute:
+  echo: false
+  warning: false
 ---
+
+```{r}
+source("src/functions.R")
+loadPackages()
+```
 
 ## Background
 
@@ -10,16 +18,16 @@ During the academic year of 2023-4, members of Watzek Library staff developed an
 
 ## Survey Team
 
--   Jim Bunnelle
+-   Jim Bunnelle, Acquisitions/Collection Development Librarian
 
--   EJ Carter
+-   EJ Carter, Research & Instruction Librarian
 
--   Hannah Crummé
+-   Hannah Crummé, Head of Special Collections & College Archivist
 
--   Elaine Hirsch
+-   Elaine Hirsch, Associate Director
 
 -   Jen Jacobs (team lead), Associate Director for Collections and Access
 
--   Erica Jensen,
+-   Erica Jensen, Research & Instruction Librarian
 
 -   Jeremy McWilliams, Head of Digital Services

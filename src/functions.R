@@ -1,4 +1,20 @@
 
+loadPackages<-function(){
+  # load packages
+  #list of packages
+  packages<-c("tidyverse", "tidytext", "sentimentr", "gt", "gtsummary", "kableExtra")
+  
+  # install packages not yet installed
+  installed_packages<-packages %in% rownames(installed.packages())
+  if(any(installed_packages==FALSE)){
+    install.packages(packages[!installed_packages])
+  }
+  
+  # Packages loading, with library function
+  invisible(lapply(packages, library, character.only=TRUE))
+  
+  
+}
 
 
 frequencyQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnly=FALSE){
@@ -34,7 +50,7 @@ frequencyQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gr
     labs(title=paste("Frequency of Watzek Visits for",label), y="Percent of respondants", x="", fill=paste("Frequency"), caption=paste("n=", total, sep = ""))
   
   print(chart)
-  ggsave(chart, file=paste("../output/",fileName))
+  ggsave(chart, file=paste("output/",fileName))
   
   
 }
@@ -72,7 +88,7 @@ needsQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOn
     labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Frequency"), caption=paste("n=", total, sep = ""))
   
   print(chart)
-  ggsave(chart, file=paste("../output/",fileName))
+  ggsave(chart, file=paste("output/",fileName))
   
 }
 

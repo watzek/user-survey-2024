@@ -1,0 +1,51 @@
+---
+title: "Frequency of Visits"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("src/functions.R")
+loadPackages()
+userData<-read_csv("data/anonymizedData.csv")
+```
+Users were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:
+
+
+How often do you visit the library for ***studying individually***?
+
+::: {.panel-tabset}
+
+## All Users
+
+```{r}
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, All Users", "allIndStudy.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, CAS Users", "casIndStudy.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+```{r}
+frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD Users", "gradIndStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+
+
+:::
+
+
+```{r}
+#frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, #All Users", "allIndStudy.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+
+#frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, #CAS Users", "casIndStudy.jpg", casOnly=TRUE, gradOnly = FALSE)
+
+#frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, #GRAD Users", "gradIndStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
+
+```
