@@ -1,8 +1,7 @@
 project:
   type: website
   output-dir: docs
-execute:
-  freeze: auto
+
 website:
   title: "Watzek User Survey, 2024"
   sidebar:
