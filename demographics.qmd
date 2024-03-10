@@ -6,7 +6,6 @@ execute:
   warning: false
 ---
 
-
 ```{r}
 source("src/functions.R")
 loadPackages()
@@ -23,7 +22,7 @@ totalUsers<-nrow(userData)
 
 #### Total respondents: `r totalUsers`
 
-#### By Campus
+## By Campus
 
 ```{r}
 userData %>%
@@ -37,7 +36,7 @@ userData %>%
   
 ```
 
-#### By Division
+## By Division
 
 ```{r}
 userData %>% 
@@ -52,7 +51,7 @@ userData %>%
 
 #### 
 
-#### By Year in School
+## By Year in School
 
 ```{r}
 # year in school
@@ -66,7 +65,7 @@ userData %>%
   kable_styling()
 ```
 
-#### By Major
+## By Major
 
 ```{r}
 userData %>% 

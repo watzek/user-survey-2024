@@ -54,9 +54,149 @@
     "href": "frequency.html",
     "title": "Frequency of Visits",
     "section": "",
-    "text": "Users were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduates",
+    "text": "Users were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:",
     "crumbs": [
       "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#individual-study",
+    "href": "frequency.html#individual-study",
+    "title": "Frequency of Visits",
+    "section": "Individual Study",
+    "text": "Individual Study\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#group-study",
+    "href": "frequency.html#group-study",
+    "title": "Frequency of Visits",
+    "section": "Group Study",
+    "text": "Group Study\nHow often do you visit the library for studying in a group?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#general-borrowing-returning",
+    "href": "frequency.html#general-borrowing-returning",
+    "title": "Frequency of Visits",
+    "section": "General borrowing / returning",
+    "text": "General borrowing / returning\nHow often do you visit the library for borrowing or returning books (other than textbooks)?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#course-reserves-textbooks",
+    "href": "frequency.html#course-reserves-textbooks",
+    "title": "Frequency of Visits",
+    "section": "Course Reserves Textbooks",
+    "text": "Course Reserves Textbooks\nHow often do you visit the library for borrowing textbooks from course reserves?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#help-from-librarian",
+    "href": "frequency.html#help-from-librarian",
+    "title": "Frequency of Visits",
+    "section": "Help from Librarian",
+    "text": "Help from Librarian\nHow often do you visit the library for getting help from a librarian?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#viewing-and-exhibit",
+    "href": "frequency.html#viewing-and-exhibit",
+    "title": "Frequency of Visits",
+    "section": "Viewing and Exhibit",
+    "text": "Viewing and Exhibit\nHow often do you visit the library for viewing an exhibit?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#printing",
+    "href": "frequency.html#printing",
+    "title": "Frequency of Visits",
+    "section": "Printing",
+    "text": "Printing\nHow often do you visit the library for printing?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#library-computers",
+    "href": "frequency.html#library-computers",
+    "title": "Frequency of Visits",
+    "section": "Library Computers",
+    "text": "Library Computers\nHow often do you visit the library for library computers (other than printing)?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#it-service-desk",
+    "href": "frequency.html#it-service-desk",
+    "title": "Frequency of Visits",
+    "section": "IT Service Desk",
+    "text": "IT Service Desk\nHow often do you visit the library for getting help from the IT Service Desk?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "frequency.html#writing-center",
+    "href": "frequency.html#writing-center",
+    "title": "Frequency of Visits",
+    "section": "Writing Center",
+    "text": "Writing Center\nHow often do you visit the library for getting help at the Writing Center?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Frequency of Visits"
+    ]
+  },
+  {
+    "objectID": "demographics.html#by-campus",
+    "href": "demographics.html#by-campus",
+    "title": "Demographics",
+    "section": "By Campus",
+    "text": "By Campus\n\n\n\n\n\n\nCampus\ncount\npercent\n\n\n\n\nCAS\n169\n74.4\n\n\nGRAD\n58\n25.6\n\n\nTotal\n227\n100.0",
+    "crumbs": [
+      "Demographics"
+    ]
+  },
+  {
+    "objectID": "demographics.html#by-division",
+    "href": "demographics.html#by-division",
+    "title": "Demographics",
+    "section": "By Division",
+    "text": "By Division\n\n\n\n\n\n\nDivision\ncount\npercent\n\n\n\n\nCounseling\n51\n22.5\n\n\nSocial Sciences\n49\n21.6\n\n\nNatural Sciences\n38\n16.7\n\n\nHumanities\n31\n13.7\n\n\nInterdisciplinary\n20\n8.8\n\n\nUndecided\n19\n8.4\n\n\nArt\n13\n5.7\n\n\nEducation\n6\n2.6\n\n\nTotal\n227\n100.0",
+    "crumbs": [
+      "Demographics"
+    ]
+  },
+  {
+    "objectID": "demographics.html#by-year-in-school",
+    "href": "demographics.html#by-year-in-school",
+    "title": "Demographics",
+    "section": "By Year in School",
+    "text": "By Year in School\n\n\n\n\n\n\nYear in School\ncount\npercent\n\n\n\n\nFirst-year student\n60\n26.4\n\n\nGraduate student\n58\n25.6\n\n\nSecond-year student\n40\n17.6\n\n\nJunior\n36\n15.9\n\n\nSenior\n33\n14.5\n\n\nTotal\n227\n100.0",
+    "crumbs": [
+      "Demographics"
+    ]
+  },
+  {
+    "objectID": "demographics.html#by-major",
+    "href": "demographics.html#by-major",
+    "title": "Demographics",
+    "section": "By Major",
+    "text": "By Major\n\n\n\n\n\n\nMajor\ncount\npercent\n\n\n\n\nPSY\n22\n9.7\n\n\nBIO\n21\n9.3\n\n\nPMHC\n18\n7.9\n\n\nUndecided\n17\n7.5\n\n\nENG\n13\n5.7\n\n\nENVS\n13\n5.7\n\n\nSPSY\n13\n5.7\n\n\nCS/MATH\n12\n5.3\n\n\nSOAN\n12\n5.3\n\n\nHIST\n9\n4.0\n\n\nMCFT\n8\n3.5\n\n\nRHMS\n8\n3.5\n\n\nAT\n7\n3.1\n\n\nBCMB\n7\n3.1\n\n\nTH\n6\n2.6\n\n\nART\n5\n2.2\n\n\nCHEM\n4\n1.8\n\n\nEDLL\n4\n1.8\n\n\nPMHCA\n4\n1.8\n\n\nWL\n4\n1.8\n\n\nECON\n3\n1.3\n\n\nMUS\n3\n1.3\n\n\nPOLS\n3\n1.3\n\n\nIA\n2\n0.9\n\n\nSAA\n2\n0.9\n\n\nNA\n2\n0.9\n\n\nCLAS\n1\n0.4\n\n\nPHIL\n1\n0.4\n\n\nPHYS\n1\n0.4\n\n\nRELS\n1\n0.4\n\n\nSPED\n1\n0.4\n\n\nTotal\n227\n100.0",
+    "crumbs": [
+      "Demographics"
     ]
   }
 ]
