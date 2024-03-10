@@ -7,7 +7,7 @@ website:
   sidebar:
     style: "docked"
     collapse-level: 1
-    logo: images/owl.png
+    logo: image/owl.png
     search: true   
     contents:
       - href: index.qmd
