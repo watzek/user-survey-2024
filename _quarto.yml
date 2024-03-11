@@ -13,6 +13,7 @@ website:
       - href: index.qmd
       - href: demographics.qmd
       - href: frequency.qmd
+      - href: needs.qmd
 format:
   html:
     theme: cosmo
