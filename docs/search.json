@@ -228,5 +228,12 @@
     "crumbs": [
       "Meeting Needs"
     ]
+  },
+  {
+    "objectID": "observable.html",
+    "href": "observable.html",
+    "title": "observable",
+    "section": "",
+    "text": "data = FileAttachment(\"data/anonymizedData.csv\").csv({ typed: true })\n\n\n\n\n\n\n\nviewof campus = Inputs.checkbox(\n  [\"CAS\", \"GRAD\"], \n  { value: [\"CAS\", \"GRAD\"], \n    label: \"Campus:\"\n  }\n)\n\n\n\n\n\n\n\nfiltered = data.filter(function(needsQuietStudy) {\n  return needsQuietStudy &&\n         campus.includes(needsQuietStudy.campus);\n})\n\nconsole.log(filtered)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlot.plot({\n  y: {\n    grid: true,\n    percent: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.barY(filtered, {x: \"needsQuietStudy\", y: \"frequency\", sort: {x: \"y\", reverse: true}})\n  ]\n})"
   }
 ]
