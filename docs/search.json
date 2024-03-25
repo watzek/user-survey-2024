@@ -224,7 +224,7 @@
     "href": "needs.html",
     "title": "Meeting Needs",
     "section": "",
-    "text": "Meetings needs response plots will go here….",
+    "text": "Users were asked to indicate the extent to which certain services met their needs.",
     "crumbs": [
       "Meeting Needs"
     ]
@@ -235,5 +235,135 @@
     "title": "observable",
     "section": "",
     "text": "data = FileAttachment(\"data/anonymizedData.csv\").csv({ typed: true })\n\n\n\n\n\n\n\nviewof campus = Inputs.checkbox(\n  [\"CAS\", \"GRAD\"], \n  { value: [\"CAS\", \"GRAD\"], \n    label: \"Campus:\"\n  }\n)\n\n\n\n\n\n\n\nfiltered = data.filter(function(needsQuietStudy) {\n  return needsQuietStudy &&\n         campus.includes(needsQuietStudy.campus);\n})\n\nconsole.log(filtered)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlot.plot({\n  y: {\n    grid: true,\n    percent: true\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.barY(filtered, {x: \"needsQuietStudy\", y: \"frequency\", sort: {x: \"y\", reverse: true}})\n  ]\n})"
+  },
+  {
+    "objectID": "needs.html#quiet-study-spaces",
+    "href": "needs.html#quiet-study-spaces",
+    "title": "Meeting Needs",
+    "section": "Quiet Study Spaces",
+    "text": "Quiet Study Spaces\nDo the following resources meet your needs? Quiet study spaces\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#collaborative-study-spaces",
+    "href": "needs.html#collaborative-study-spaces",
+    "title": "Meeting Needs",
+    "section": "Collaborative Study Spaces",
+    "text": "Collaborative Study Spaces\nDo the following resources meet your needs? Collaborative study spaces\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#study-rooms",
+    "href": "needs.html#study-rooms",
+    "title": "Meeting Needs",
+    "section": "Study Rooms",
+    "text": "Study Rooms\nDo the following resources meet your needs? Study Rooms\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#reservable-study-rooms",
+    "href": "needs.html#reservable-study-rooms",
+    "title": "Meeting Needs",
+    "section": "Reservable Study Rooms",
+    "text": "Reservable Study Rooms\nDo the following resources meet your needs? Reservable Study Rooms\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#textbooks-from-course-reserves",
+    "href": "needs.html#textbooks-from-course-reserves",
+    "title": "Meeting Needs",
+    "section": "Textbooks from Course Reserves",
+    "text": "Textbooks from Course Reserves\nDo the following resources meet your needs? Textbooks from Course Reserves\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#summit-borrowing",
+    "href": "needs.html#summit-borrowing",
+    "title": "Meeting Needs",
+    "section": "Summit Borrowing",
+    "text": "Summit Borrowing\nDo the following resources meet your needs? Summit Borrowing\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#interlibrary-loan",
+    "href": "needs.html#interlibrary-loan",
+    "title": "Meeting Needs",
+    "section": "Interlibrary Loan",
+    "text": "Interlibrary Loan\nDo the following resources meet your needs? Interlibrary Loan\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#library-printers",
+    "href": "needs.html#library-printers",
+    "title": "Meeting Needs",
+    "section": "Library printers",
+    "text": "Library printers\nDo the following resources meet your needs? Library printers\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#library-computers",
+    "href": "needs.html#library-computers",
+    "title": "Meeting Needs",
+    "section": "Library computers",
+    "text": "Library computers\nDo the following resources meet your needs? Library computers\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#library-scanners",
+    "href": "needs.html#library-scanners",
+    "title": "Meeting Needs",
+    "section": "Library scanners",
+    "text": "Library scanners\nDo the following resources meet your needs? Library scanners\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "needs.html#avtech-borrowing",
+    "href": "needs.html#avtech-borrowing",
+    "title": "Meeting Needs",
+    "section": "AV/tech borrowing",
+    "text": "AV/tech borrowing\nDo the following resources meet your needs? AV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Meeting Needs"
+    ]
+  },
+  {
+    "objectID": "useful.html",
+    "href": "useful.html",
+    "title": "Usefulness of Research Tools",
+    "section": "",
+    "text": "Users were asked how useful various tools were when starting a research project.",
+    "crumbs": [
+      "Usefulness of Research Tools"
+    ]
+  },
+  {
+    "objectID": "useful.html#primo-catalog",
+    "href": "useful.html#primo-catalog",
+    "title": "Usefulness of Research Tools",
+    "section": "Primo Catalog",
+    "text": "Primo Catalog\nWhen starting a research project, how useful do you find the following tools? *Primo (the library catalog)\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Usefulness of Research Tools"
+    ]
   }
 ]

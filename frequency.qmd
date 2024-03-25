@@ -11,13 +11,14 @@ source("src/functions.R")
 loadPackages()
 userData<-read_csv("data/anonymizedData.csv")
 ```
+
 Users were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:
 
 ## Individual Study
+
 How often do you visit the library for ***studying individually***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -32,20 +33,17 @@ frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, CAS U
 ```
 
 ## Graduates
+
 ```{r}
 frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD Users", "gradIndStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
 ## Group Study
+
 How often do you visit the library for ***studying in a group***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -60,6 +58,7 @@ frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, CAS Users", "ca
 ```
 
 ## Graduates
+
 ```{r}
 
 
@@ -67,18 +66,13 @@ frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, CAS Users", "ca
 
 frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, GRAD Users", "gradGroupStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
-
 ## Course Reserves Textbooks
+
 How often do you visit the library for ***borrowing textbooks from course reserves***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -93,6 +87,7 @@ frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, CAS Use
 ```
 
 ## Graduates
+
 ```{r}
 
 
@@ -100,16 +95,13 @@ frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, CAS Use
 
 frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, GRAD Users", "gradCourseReserves.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
 ## General Borrowing & Returning
+
 How often do you visit the library for ***borrowing or returning books (other than textbooks)***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -124,6 +116,7 @@ frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, CAS Use
 ```
 
 ## Graduates
+
 ```{r}
 
 
@@ -131,16 +124,13 @@ frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, CAS Use
 
 frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, GRAD Users", "gradBorrowingBooks.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
-
 :::
 
-
-
 ## Help from Librarian
+
 How often do you visit the library for ***getting help from a librarian***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -155,21 +145,18 @@ frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, CAS Users", "casG
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, GRAD Users", "gradGetHelp.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
 ## Viewing an Exhibit
+
 How often do you visit the library for ***viewing an exhibit***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -193,21 +180,18 @@ frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
 ## Printing
+
 How often do you visit the library for ***printing***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -227,21 +211,18 @@ frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
 ## Library Computers
+
 How often do you visit the library for ***library computers (other than printing)***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -265,21 +246,18 @@ frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
 ## IT Service Desk
+
 How often do you visit the library for ***getting help from the IT Service Desk***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -302,22 +280,18 @@ frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::
 
-
-
-
 ## Writing Center
+
 How often do you visit the library for ***getting help at the Writing Center***?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## All Users
 
 ```{r}
@@ -344,10 +318,9 @@ frequencyQuestion(userData, col, paste(lab, ", CAS Users"), paste("cas",im,".jpg
 ```
 
 ## Graduates
+
 ```{r}
 
 frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jpg", sep=""), casOnly=FALSE, gradOnly = TRUE)
 ```
-
-
 :::

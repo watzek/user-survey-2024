@@ -85,11 +85,45 @@ needsQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOn
     geom_bar(stat="identity")+
     geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
     theme(axis.text.x=element_blank())+
-    labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Frequency"), caption=paste("n=", total, sep = ""))
+    labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Extent of Meeting Needs"), caption=paste("n=", total, sep = ""))
   
   print(chart)
   ggsave(chart, file=paste("output/",fileName))
   
 }
 
-
+usefulQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnly=FALSE){
+  
+  
+  dataNaRemoved<-data %>% drop_na(columnName)
+  
+  dataNaRemoved
+  if(casOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="CAS")
+  }
+  if(gradOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="GRAD")
+  } 
+  total<-nrow(dataNaRemoved)
+  
+  all<-dataNaRemoved %>%
+    group_by(!!sym(columnName)) %>%
+    summarize(count=n(), percent=round(n()/total*100, digits=1)) %>%
+    arrange(match(!!sym(columnName), c("Very useful", "Somewhat useful", "Not useful at all","I haven't used this", "I'm not familiar with this")))
+  
+  all[[columnName]] <- factor(all[[columnName]], levels = all[[columnName]])
+  #return (all)
+  
+  chart<-all %>% 
+    ggplot(mapping=aes(x=.data[[columnName]], y=percent, fill=.data[[columnName]]))+
+    geom_bar(stat="identity")+
+    geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
+    theme(axis.text.x=element_blank())+
+    labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Degree of Usefulness"), caption=paste("n=", total, sep = ""))
+  
+  print(chart)
+  ggsave(chart, file=paste("output/",fileName))
+  
+}

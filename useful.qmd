@@ -1,0 +1,40 @@
+---
+title: "Usefulness of Research Tools"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("src/functions.R")
+loadPackages()
+userData<-read_csv("data/anonymizedData.csv")
+```
+
+Users were asked how useful various tools were when starting a research project.
+
+## Primo Catalog
+
+When starting a research project, how useful do you find the following tools? ***Primo (the library catalog)**
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulPrimo", "Primo, All Users", "allUsefulPrimo.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulPrimo", "Primo,  CAS Users", "casUsefulPrimo.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::

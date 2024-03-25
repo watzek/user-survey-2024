@@ -14,7 +14,7 @@ website:
       - href: demographics.qmd
       - href: frequency.qmd
       - href: needs.qmd
-      - href: observable.qmd
+      - href: useful.qmd
 format:
   html:
     theme: cosmo
