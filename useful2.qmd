@@ -1,0 +1,92 @@
+---
+title: "Usefulness of Forms of Assistance"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+source("src/functions.R")
+loadPackages()
+userData<-read_csv("data/anonymizedData.csv")
+```
+
+Users were asked how useful they found various forms of assistance.
+
+## Research Help desk
+
+How useful do you find the following forms of assistance? ***Getting assistance at the Research Help desk***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulResearchHelpDesk", "Research Help desk, All Users", "allUsefulResearchHelpDesk.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulResearchHelpDesk", "Research Help desk,  CAS Users", "casUsefulResearchHelpDesk.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulResearchHelpDesk", "Research Help desk,  GRAD Users", "gradUsefulResearchHelpDesk.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
+## Online Chat
+
+How useful do you find the following forms of assistance? ***Getting assistance on chat***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulChat", "Online Chat, All Users", "allUsefulChat.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulChat", "Online Chat,  CAS Users", "casUsefulChat.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulChat", "Online Chat desk,  GRAD Users", "gradUsefulChat.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
+
+## Research Consultation
+
+How useful do you find the following forms of assistance? ***Meeting with a librarian in a research consultation***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulConsultation", "Research Consultation, All Users", "allUsefulConsultation.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulConsultation", "Research Consultation,  CAS Users", "casUsefulConsultation.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulConsultation", "Research Consultation desk,  GRAD Users", "gradUsefulConsultation.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
