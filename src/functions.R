@@ -121,7 +121,7 @@ usefulQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradO
     geom_bar(stat="identity")+
     geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
     theme(axis.text.x=element_blank())+
-    labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Degree of Usefulness"), caption=paste("n=", total, sep = ""))
+    labs(title=paste("Usefulness of",label), y="Percent of respondants", x="", fill=paste("Degree of Usefulness"), caption=paste("n=", total, sep = ""))
   
   print(chart)
   ggsave(chart, file=paste("output/",fileName))

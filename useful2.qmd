@@ -60,7 +60,7 @@ usefulQuestion(userData, "usefulChat", "Online Chat,  CAS Users", "casUsefulChat
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulChat", "Online Chat desk,  GRAD Users", "gradUsefulChat.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion(userData, "usefulChat", "Online Chat,  GRAD Users", "gradUsefulChat.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
 
@@ -86,7 +86,106 @@ usefulQuestion(userData, "usefulConsultation", "Research Consultation,  CAS User
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulConsultation", "Research Consultation desk,  GRAD Users", "gradUsefulConsultation.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion(userData, "usefulConsultation", "Research Consultation,  GRAD Users", "gradUsefulConsultation.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
 
+## Librarian class session 
+
+How useful do you find the following forms of assistance? ***Having a librarian meet with my class***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulLibrarianClass", "Librarian Class, All Users", "allUsefulLibrarianClass.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulLibrarianClass", "Librarian Class,  CAS Users", "casUsefulLibrarianClass.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulLibrarianClass", "Librarian Class,  GRAD Users", "gradUsefulLibrarianClass.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
+## Subject / Course Guide 
+
+How useful do you find the following forms of assistance? ***Subject and course guides on the library website***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulLibGuide", "Subject / Course Guide, All Users", "allUsefulLibGuide.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulLibGuide", "Subject / Course Guide,  CAS Users", "casUsefulLibGuide.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulLibGuide", "Subject / Course Guide,  GRAD Users", "gradUsefulLibGuide.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
+## Video Tutorials 
+
+How useful do you find the following forms of assistance? ***Video tutorials on the library website***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulVideoTutorial", "Video Tutorials, All Users", "allUsefulVideoTutorial.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulVideoTutorial", "Video Tutorials,  CAS Users", "casUsefulVideoTutorial.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulVideoTutorial", "Video Tutorials,  GRAD Users", "gradUsefulVideoTutorial.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
+
+## Library Website 
+
+How useful do you find the following forms of assistance? ***Other information on the library website***
+
+::: panel-tabset
+## All Users
+
+```{r}
+usefulQuestion(userData, "usefulLibraryWebsite", "Library Website, All Users", "allUsefulLibraryWebsite.jpg", casOnly=FALSE, gradOnly = FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+usefulQuestion(userData, "usefulLibraryWebsite", "Library Website,  CAS Users", "casUsefulLibraryWebsite.jpg", casOnly=TRUE, gradOnly = FALSE)
+```
+
+## Graduates
+
+```{r}
+usefulQuestion(userData, "usefulLibraryWebsite", "Library Website,  GRAD Users", "gradUsefulLibraryWebsite.jpg", casOnly=FALSE, gradOnly = TRUE)
+```
+:::
