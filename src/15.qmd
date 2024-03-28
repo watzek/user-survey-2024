@@ -1,0 +1,11 @@
+---
+title: "15. Reseach frustrations"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***15. What frustrates you about doing research?***
+
+-output

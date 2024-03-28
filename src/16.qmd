@@ -1,0 +1,11 @@
+---
+title: "16. Comfort with library and staff"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***16. Please indicate how much you agree with the following statements:***
+
+-output

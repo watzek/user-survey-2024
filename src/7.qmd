@@ -1,0 +1,14 @@
+---
+title: "7. Preferred study areas"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+
+
+
+***7. What are your preferred areas to study in the library? Why?***
+
+-output

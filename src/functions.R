@@ -155,6 +155,6 @@ usefulQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradO
     labs(title=paste("Usefulness of",label), y="Percent of respondants", x="", fill=paste("Degree of Usefulness"), caption=paste("n=", total, sep = ""))
   
   print(chart)
-  ggsave(chart, file=paste("output/",fileName))
+  ggsave(chart, file=paste("../output/",fileName))
   
 }

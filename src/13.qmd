@@ -1,0 +1,11 @@
+---
+title: "13. Usefulness of assistance"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***13. How useful do you find the following forms of assistance?***
+
+-output

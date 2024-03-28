@@ -1,0 +1,11 @@
+---
+title: "12. Reseach tools and resources comments"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***12. Please share any comments about the research tools and resources listed above.***
+
+-output

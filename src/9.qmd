@@ -1,0 +1,11 @@
+---
+title: "9. Reseach tools relied upon"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***9. What other research tools do you rely on?***
+
+-output

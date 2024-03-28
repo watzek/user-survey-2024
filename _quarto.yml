@@ -17,6 +17,17 @@ website:
       - href: src/4.qmd
       - href: src/5.qmd
       - href: src/6.qmd
+      - href: src/7.qmd
+      - href: src/8.qmd
+      - href: src/9.qmd
+      - href: src/10.qmd
+      - href: src/11.qmd
+      - href: src/12.qmd
+      - href: src/13.qmd
+      - href: src/14.qmd
+      - href: src/15.qmd
+      - href: src/16.qmd
+      - href: src/17.qmd
 
       
 format:
