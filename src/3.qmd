@@ -6,6 +6,33 @@ execute:
   warning: false
 ---
 
+
+```{r}
+source("functions.R")
+loadPackages()
+```
+
+
+```{r}
+userData<-read_csv("../data/anonymizedData.csv")
+```
+
+```{r}
+totalUsers<-nrow(userData)
+
+```
+
+
 ***3. Do you live on campus?***
 
--output
+```{r}
+
+userData %>%
+  group_by(onCampus) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  rename("On Campus"=onCampus) %>%
+  kbl() %>%
+  kable_styling()
+```
+

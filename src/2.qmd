@@ -6,6 +6,34 @@ execute:
   warning: false
 ---
 
+
+```{r}
+source("functions.R")
+loadPackages()
+```
+
+
+```{r}
+userData<-read_csv("../data/anonymizedData.csv")
+```
+
+```{r}
+totalUsers<-nrow(userData)
+
+```
+
+
+
 ***2. Area(s) of study. (Please write "undecided" if not sure.)***
 
--output
+
+```{r}
+userData %>% 
+  group_by(major) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(major = "Total", count = totalUsers, percent = 100) %>%
+  rename("Major"=major) %>%
+  kbl() %>%
+  kable_styling()
+```

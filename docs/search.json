@@ -448,8 +448,9 @@
     "href": "src/1.html",
     "title": "1. Year in school",
     "section": "",
-    "text": "1. Which of the following best describes you?\n-output",
+    "text": "1. Which of the following best describes you?\n\n\n\n\n\n\nYear in School\ncount\npercent\n\n\n\n\nFirst-year student\n60\n26.4\n\n\nGraduate student\n58\n25.6\n\n\nSecond-year student\n40\n17.6\n\n\nJunior\n36\n15.9\n\n\nSenior\n33\n14.5\n\n\nTotal\n227\n100.0",
     "crumbs": [
+      "Survey Questions",
       "1. Year in school"
     ]
   },
@@ -468,8 +469,9 @@
     "href": "src/3.html",
     "title": "3. On/off campus",
     "section": "",
-    "text": "3. Do you live on campus?\n-output",
+    "text": "3. Do you live on campus?\n\n\n\n\n\n\nOn Campus\ncount\npercent\n\n\n\n\nYes\n136\n59.9\n\n\nNo\n91\n40.1",
     "crumbs": [
+      "Survey Questions",
       "3. On/off campus"
     ]
   },
@@ -478,8 +480,9 @@
     "href": "src/2.html",
     "title": "2. Area of study",
     "section": "",
-    "text": "2. Area(s) of study. (Please write “undecided” if not sure.)\n-output",
+    "text": "2. Area(s) of study. (Please write “undecided” if not sure.)\n\n\n\n\n\n\nMajor\ncount\npercent\n\n\n\n\nPSY\n22\n9.7\n\n\nBIO\n21\n9.3\n\n\nPMHC\n18\n7.9\n\n\nUndecided\n17\n7.5\n\n\nENG\n13\n5.7\n\n\nENVS\n13\n5.7\n\n\nSPSY\n13\n5.7\n\n\nCS/MATH\n12\n5.3\n\n\nSOAN\n12\n5.3\n\n\nHIST\n9\n4.0\n\n\nMCFT\n8\n3.5\n\n\nRHMS\n8\n3.5\n\n\nAT\n7\n3.1\n\n\nBCMB\n7\n3.1\n\n\nTH\n6\n2.6\n\n\nART\n5\n2.2\n\n\nCHEM\n4\n1.8\n\n\nEDLL\n4\n1.8\n\n\nPMHCA\n4\n1.8\n\n\nWL\n4\n1.8\n\n\nECON\n3\n1.3\n\n\nMUS\n3\n1.3\n\n\nPOLS\n3\n1.3\n\n\nIA\n2\n0.9\n\n\nSAA\n2\n0.9\n\n\nNA\n2\n0.9\n\n\nCLAS\n1\n0.4\n\n\nPHIL\n1\n0.4\n\n\nPHYS\n1\n0.4\n\n\nRELS\n1\n0.4\n\n\nSPED\n1\n0.4\n\n\nTotal\n227\n100.0",
     "crumbs": [
+      "Survey Questions",
       "2. Area of study"
     ]
   },
@@ -490,6 +493,7 @@
     "section": "",
     "text": "4. How often do you visit the library for the following needs?\nUsers were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -500,6 +504,7 @@
     "section": "Individual Study",
     "text": "Individual Study\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduatesOn/off campus",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -510,6 +515,7 @@
     "section": "Group Study",
     "text": "Group Study\nHow often do you visit the library for studying in a group?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -520,6 +526,7 @@
     "section": "Course Reserves Textbooks",
     "text": "Course Reserves Textbooks\nHow often do you visit the library for borrowing textbooks from course reserves?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -530,6 +537,7 @@
     "section": "General Borrowing & Returning",
     "text": "General Borrowing & Returning\nHow often do you visit the library for borrowing or returning books (other than textbooks)?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -540,6 +548,7 @@
     "section": "Help from Librarian",
     "text": "Help from Librarian\nHow often do you visit the library for getting help from a librarian?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -550,6 +559,7 @@
     "section": "Viewing an Exhibit",
     "text": "Viewing an Exhibit\nHow often do you visit the library for viewing an exhibit?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -560,6 +570,7 @@
     "section": "Printing",
     "text": "Printing\nHow often do you visit the library for printing?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -570,6 +581,7 @@
     "section": "Library Computers",
     "text": "Library Computers\nHow often do you visit the library for library computers (other than printing)?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -580,6 +592,7 @@
     "section": "IT Service Desk",
     "text": "IT Service Desk\nHow often do you visit the library for getting help from the IT Service Desk?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
@@ -590,6 +603,7 @@
     "section": "Writing Center",
     "text": "Writing Center\nHow often do you visit the library for getting help at the Writing Center?\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "4. Frequency of visits"
     ]
   },
