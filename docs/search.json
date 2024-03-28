@@ -448,7 +448,10 @@
     "href": "src/1.html",
     "title": "1. Year in school",
     "section": "",
-    "text": "1. Which of the following best describes you?\n-output"
+    "text": "1. Which of the following best describes you?\n-output",
+    "crumbs": [
+      "1. Year in school"
+    ]
   },
   {
     "objectID": "src/1.html#year-in-school",
