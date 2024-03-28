@@ -12,12 +12,9 @@ loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
 
-***8. When starting a research project, how useful do you find the following tools?***
+***When starting a research project, how useful do you find the following tools?***
 
-## Primo Catalog
-
-When starting a research project, how useful do you find the following tools? \***Primo (the library catalog)**
-
+### Primo Catalog
 ::: panel-tabset
 ## All Users
 
@@ -39,10 +36,7 @@ usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jp
 ```
 :::
 
-## Library databases other than Primo
-
-When starting a research project, how useful do you find the following tools? ***Library databases other than Primo (e.g. JSTOR, EBSCO)***
-
+### Library databases other than Primo (e.g. JSTOR, EBSCO)
 ::: panel-tabset
 ## All Users
 
@@ -64,10 +58,7 @@ usefulQuestion(userData, "usefulDatabases", "Library Databases, GRAD Users", "gr
 ```
 :::
 
-## Google
-
-When starting a research project, how useful do you find the following tools? ***Google***
-
+### Google
 ::: panel-tabset
 ## All Users
 
@@ -89,10 +80,7 @@ usefulQuestion(userData, "usefulGoogle", "Google, GRAD Users", "gradusefulGoogle
 ```
 :::
 
-## Google Scholar
-
-When starting a research project, how useful do you find the following tools? ***Google Scholar***
-
+### Google Scholar
 ::: panel-tabset
 ## All Users
 

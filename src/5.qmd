@@ -6,7 +6,7 @@ execute:
   warning: false
 ---
 
-***5. Do the following resources meet your needs?***
+***Do the following resources meet your needs?***
 
 ```{r}
 source("functions.R")
@@ -14,10 +14,8 @@ loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
 
-Users were asked to indicate the extent to which certain services met their needs.
 
-### Quiet Study Spaces
-
+### Quiet study spaces
 ::: panel-tabset
 ## All Users
 
@@ -39,10 +37,7 @@ needsQuestion(userData, "needsQuietStudy", "Quiet Study Spaces, GRAD Users", "gr
 ```
 :::
 
-## Collaborative Study Spaces
-
-Do the following resources meet your needs? ***Collaborative study spaces***
-
+### Collaborative study spaces
 ::: panel-tabset
 ## All Users
 
@@ -64,10 +59,7 @@ needsQuestion(userData, "needsCollabStudy", "Collaborative Study Space, GRAD Use
 ```
 :::
 
-## Reservable Study Rooms
-
-Do the following resources meet your needs? ***Reservable Study Rooms***
-
+### Reservable study rooms
 ::: panel-tabset
 ## All Users
 
@@ -89,10 +81,7 @@ needsQuestion(userData, "needsStudyRooms", "Reservable Study Rooms, GRAD Users",
 ```
 :::
 
-## Textbooks from Course Reserves
-
-Do the following resources meet your needs? ***Textbooks from Course Reserves***
-
+### Textbooks from course reserves
 ::: panel-tabset
 ## All Users
 
@@ -114,10 +103,7 @@ needsQuestion(userData, "needsTextbooks", "Textbooks from Course Reserves, GRAD 
 ```
 :::
 
-## Summit Borrowing
-
-Do the following resources meet your needs? ***Summit Borrowing***
-
+### Summit borrowing
 ::: panel-tabset
 ## All Users
 
@@ -139,10 +125,7 @@ needsQuestion(userData, "needsSummit", "Summit Borrowing, GRAD Users", "gradNeed
 ```
 :::
 
-## Interlibrary Loan
-
-Do the following resources meet your needs? ***Interlibrary Loan***
-
+### Interlibrary loan
 ::: panel-tabset
 ## All Users
 
@@ -164,10 +147,7 @@ needsQuestion(userData, "needsIll", "Interlibrary Loan, GRAD Users", "gradNeedsI
 ```
 :::
 
-## Library printers
-
-Do the following resources meet your needs? ***Library printers***
-
+### Library printers
 ::: panel-tabset
 ## All Users
 
@@ -189,10 +169,7 @@ needsQuestion(userData, "needsPrinters", "Library printers, GRAD Users", "gradNe
 ```
 :::
 
-## Library computers
-
-Do the following resources meet your needs? ***Library computers***
-
+### Library computers
 ::: panel-tabset
 ## All Users
 
@@ -214,10 +191,7 @@ needsQuestion(userData, "needsComputers", "Library computers, GRAD Users", "grad
 ```
 :::
 
-## Library scanners
-
-Do the following resources meet your needs? ***Library scanners***
-
+### Library scanners
 ::: panel-tabset
 ## All Users
 
@@ -239,10 +213,7 @@ needsQuestion(userData, "needsScanners", "Library scanners, GRAD Users", "gradNe
 ```
 :::
 
-## AV/tech borrowing
-
-Do the following resources meet your needs? ***AV/tech borrowing (headphones, laptops, etc.)***
-
+### AV/tech borrowing (headphones, laptops, etc.)
 ::: panel-tabset
 ## All Users
 

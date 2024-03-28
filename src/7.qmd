@@ -6,6 +6,6 @@ execute:
   warning: false
 ---
 
-***7. What are your preferred areas to study in the library? Why?***
+***What are your preferred areas to study in the library? Why?***
 
 -output

@@ -6,12 +6,10 @@ execute:
   warning: false
 ---
 
-
 ```{r}
 source("functions.R")
 loadPackages()
 ```
-
 
 ```{r}
 userData<-read_csv("../data/anonymizedData.csv")
@@ -22,8 +20,7 @@ totalUsers<-nrow(userData)
 
 ```
 
-
-***3. Do you live on campus?***
+***Do you live on campus?***
 
 ```{r}
 
@@ -35,4 +32,3 @@ userData %>%
   kbl() %>%
   kable_styling()
 ```
-

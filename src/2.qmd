@@ -6,12 +6,10 @@ execute:
   warning: false
 ---
 
-
 ```{r}
 source("functions.R")
 loadPackages()
 ```
-
 
 ```{r}
 userData<-read_csv("../data/anonymizedData.csv")
@@ -22,9 +20,7 @@ totalUsers<-nrow(userData)
 
 ```
 
-
-
-***2. Area(s) of study. (Please write "undecided" if not sure.)***
+***Area(s) of study. (Please write "undecided" if not sure.)***
 
 ### Major
 
@@ -38,7 +34,6 @@ userData %>%
   kbl() %>%
   kable_styling()
 ```
-
 
 ### Division
 

@@ -436,7 +436,7 @@
     "href": "src/1.html",
     "title": "1. Year in school",
     "section": "",
-    "text": "1. Which of the following best describes you?\n\nYear\n\n\n\n\n\n\nYear in School\ncount\npercent\n\n\n\n\nFirst-year student\n60\n26.4\n\n\nGraduate student\n58\n25.6\n\n\nSecond-year student\n40\n17.6\n\n\nJunior\n36\n15.9\n\n\nSenior\n33\n14.5\n\n\nTotal\n227\n100.0\n\n\n\n\n\n\n\n\n\n\nCampus\n\n\n\n\n\n\nCampus\ncount\npercent\n\n\n\n\nCAS\n169\n74.4\n\n\nGRAD\n58\n25.6\n\n\nTotal\n227\n100.0",
+    "text": "Which of the following best describes you?\n\nYear\n\n\n\n\n\n\nYear in School\ncount\npercent\n\n\n\n\nFirst-year student\n60\n26.4\n\n\nGraduate student\n58\n25.6\n\n\nSecond-year student\n40\n17.6\n\n\nJunior\n36\n15.9\n\n\nSenior\n33\n14.5\n\n\nTotal\n227\n100.0\n\n\n\n\n\n\n\n\n\n\nCampus\n\n\n\n\n\n\nCampus\ncount\npercent\n\n\n\n\nCAS\n169\n74.4\n\n\nGRAD\n58\n25.6\n\n\nTotal\n227\n100.0",
     "crumbs": [
       "Survey Questions",
       "1. Year in school"
@@ -457,7 +457,7 @@
     "href": "src/3.html",
     "title": "3. On/off campus",
     "section": "",
-    "text": "3. Do you live on campus?\n\n\n\n\n\n\nOn Campus\ncount\npercent\n\n\n\n\nYes\n136\n59.9\n\n\nNo\n91\n40.1",
+    "text": "Do you live on campus?\n\n\n\n\n\n\nOn Campus\ncount\npercent\n\n\n\n\nYes\n136\n59.9\n\n\nNo\n91\n40.1",
     "crumbs": [
       "Survey Questions",
       "3. On/off campus"
@@ -468,7 +468,7 @@
     "href": "src/2.html",
     "title": "2. Area of study",
     "section": "",
-    "text": "2. Area(s) of study. (Please write “undecided” if not sure.)\n\nMajor\n\n\n\n\n\n\nMajor\ncount\npercent\n\n\n\n\nPSY\n22\n9.7\n\n\nBIO\n21\n9.3\n\n\nPMHC\n18\n7.9\n\n\nUndecided\n17\n7.5\n\n\nENG\n13\n5.7\n\n\nENVS\n13\n5.7\n\n\nSPSY\n13\n5.7\n\n\nCS/MATH\n12\n5.3\n\n\nSOAN\n12\n5.3\n\n\nHIST\n9\n4.0\n\n\nMCFT\n8\n3.5\n\n\nRHMS\n8\n3.5\n\n\nAT\n7\n3.1\n\n\nBCMB\n7\n3.1\n\n\nTH\n6\n2.6\n\n\nART\n5\n2.2\n\n\nCHEM\n4\n1.8\n\n\nEDLL\n4\n1.8\n\n\nPMHCA\n4\n1.8\n\n\nWL\n4\n1.8\n\n\nECON\n3\n1.3\n\n\nMUS\n3\n1.3\n\n\nPOLS\n3\n1.3\n\n\nIA\n2\n0.9\n\n\nSAA\n2\n0.9\n\n\nNA\n2\n0.9\n\n\nCLAS\n1\n0.4\n\n\nPHIL\n1\n0.4\n\n\nPHYS\n1\n0.4\n\n\nRELS\n1\n0.4\n\n\nSPED\n1\n0.4\n\n\nTotal\n227\n100.0\n\n\n\n\n\n\n\n\n\n\nDivision\n\n\n\n\n\n\nDivision\ncount\npercent\n\n\n\n\nCounseling\n51\n22.5\n\n\nSocial Sciences\n49\n21.6\n\n\nNatural Sciences\n38\n16.7\n\n\nHumanities\n31\n13.7\n\n\nInterdisciplinary\n20\n8.8\n\n\nUndecided\n19\n8.4\n\n\nArt\n13\n5.7\n\n\nEducation\n6\n2.6\n\n\nTotal\n227\n100.0",
+    "text": "Area(s) of study. (Please write “undecided” if not sure.)\n\nMajor\n\n\n\n\n\n\nMajor\ncount\npercent\n\n\n\n\nPSY\n22\n9.7\n\n\nBIO\n21\n9.3\n\n\nPMHC\n18\n7.9\n\n\nUndecided\n17\n7.5\n\n\nENG\n13\n5.7\n\n\nENVS\n13\n5.7\n\n\nSPSY\n13\n5.7\n\n\nCS/MATH\n12\n5.3\n\n\nSOAN\n12\n5.3\n\n\nHIST\n9\n4.0\n\n\nMCFT\n8\n3.5\n\n\nRHMS\n8\n3.5\n\n\nAT\n7\n3.1\n\n\nBCMB\n7\n3.1\n\n\nTH\n6\n2.6\n\n\nART\n5\n2.2\n\n\nCHEM\n4\n1.8\n\n\nEDLL\n4\n1.8\n\n\nPMHCA\n4\n1.8\n\n\nWL\n4\n1.8\n\n\nECON\n3\n1.3\n\n\nMUS\n3\n1.3\n\n\nPOLS\n3\n1.3\n\n\nIA\n2\n0.9\n\n\nSAA\n2\n0.9\n\n\nNA\n2\n0.9\n\n\nCLAS\n1\n0.4\n\n\nPHIL\n1\n0.4\n\n\nPHYS\n1\n0.4\n\n\nRELS\n1\n0.4\n\n\nSPED\n1\n0.4\n\n\nTotal\n227\n100.0\n\n\n\n\n\n\n\n\n\n\nDivision\n\n\n\n\n\n\nDivision\ncount\npercent\n\n\n\n\nCounseling\n51\n22.5\n\n\nSocial Sciences\n49\n21.6\n\n\nNatural Sciences\n38\n16.7\n\n\nHumanities\n31\n13.7\n\n\nInterdisciplinary\n20\n8.8\n\n\nUndecided\n19\n8.4\n\n\nArt\n13\n5.7\n\n\nEducation\n6\n2.6\n\n\nTotal\n227\n100.0",
     "crumbs": [
       "Survey Questions",
       "2. Area of study"
@@ -479,7 +479,7 @@
     "href": "src/4.html",
     "title": "4. Frequency of visits",
     "section": "",
-    "text": "4. How often do you visit the library for the following needs?\nUsers were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:",
+    "text": "How often do you visit the library for the following needs?",
     "crumbs": [
       "Survey Questions",
       "4. Frequency of visits"
@@ -600,7 +600,7 @@
     "href": "src/5.html",
     "title": "5. Do resources meet your needs",
     "section": "",
-    "text": "5. Do the following resources meet your needs?\nUsers were asked to indicate the extent to which certain services met their needs.",
+    "text": "Do the following resources meet your needs?\n\nQuiet study spaces\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollaborative study spaces\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReservable study rooms\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTextbooks from course reserves\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummit borrowing\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterlibrary loan\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary printers\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary computers\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary scanners\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
       "Survey Questions",
       "5. Do resources meet your needs"
@@ -710,7 +710,7 @@
     "href": "src/6.html",
     "title": "6. Comments on resources",
     "section": "",
-    "text": "6. Please share any comments about the resources listed above. (in reference to question 5)\n-output",
+    "text": "Please share any comments about the resources listed above. (in reference to question 5)\n-output",
     "crumbs": [
       "Survey Questions",
       "6. Comments on resources"
@@ -721,7 +721,7 @@
     "href": "src/8.html",
     "title": "8. Usefulness of tools",
     "section": "",
-    "text": "8. When starting a research project, how useful do you find the following tools?",
+    "text": "When starting a research project, how useful do you find the following tools?\n\nPrimo Catalog\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary databases other than Primo (e.g. JSTOR, EBSCO)\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle Scholar\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
       "Survey Questions",
       "8. Usefulness of tools"
@@ -776,7 +776,7 @@
     "href": "src/7.html",
     "title": "7. Preferred study areas",
     "section": "",
-    "text": "7. What are your preferred areas to study in the library? Why?\n-output",
+    "text": "What are your preferred areas to study in the library? Why?\n-output",
     "crumbs": [
       "Survey Questions",
       "7. Preferred study areas"
@@ -789,6 +789,7 @@
     "section": "",
     "text": "17. What do you value the most about Watzek Library? If you could change one thing to make it a more welcoming place, what would it be?\n-output",
     "crumbs": [
+      "Survey Questions",
       "17. What do you value/suggest"
     ]
   },
@@ -799,6 +800,7 @@
     "section": "",
     "text": "12. Please share any comments about the research tools and resources listed above.\n-output",
     "crumbs": [
+      "Survey Questions",
       "12. Reseach tools and resources comments"
     ]
   },
@@ -820,6 +822,7 @@
     "section": "",
     "text": "16. Please indicate how much you agree with the following statements:\n-output",
     "crumbs": [
+      "Survey Questions",
       "16. Comfort with library and staff"
     ]
   },
@@ -830,6 +833,7 @@
     "section": "",
     "text": "15. What frustrates you about doing research?\n-output",
     "crumbs": [
+      "Survey Questions",
       "15. Reseach frustrations"
     ]
   },
@@ -851,6 +855,7 @@
     "section": "",
     "text": "13. How useful do you find the following forms of assistance?\n-output",
     "crumbs": [
+      "Survey Questions",
       "13. Usefulness of assistance"
     ]
   },
@@ -872,6 +877,7 @@
     "section": "",
     "text": "14. How often have your classes met with librarians, either in the library classroom or as a part of your regular class?\n-output",
     "crumbs": [
+      "Survey Questions",
       "14. Librarian class visits"
     ]
   },
@@ -923,6 +929,17 @@
     "text": "content here",
     "crumbs": [
       "Conclusions"
+    ]
+  },
+  {
+    "objectID": "src/4.html#getting-help-at-the-writing-center",
+    "href": "src/4.html#getting-help-at-the-writing-center",
+    "title": "4. Frequency of visits",
+    "section": "Getting help at the Writing Center",
+    "text": "Getting help at the Writing Center\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "Survey Questions",
+      "4. Frequency of visits"
     ]
   }
 ]

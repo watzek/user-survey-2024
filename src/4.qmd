@@ -6,7 +6,7 @@ execute:
   warning: false
 ---
 
-***4. How often do you visit the library for the following needs?***
+***How often do you visit the library for the following needs?***
 
 ```{r}
 source("functions.R")
@@ -14,12 +14,8 @@ loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
 
-Users were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:
 
-## Individual Study
-
-How often do you visit the library for ***studying individually***?
-
+### Studying individually
 ::: panel-tabset
 ## All Users
 
@@ -49,10 +45,7 @@ frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD 
 ```
 :::
 
-## Group Study
-
-How often do you visit the library for ***studying in a group***?
-
+### Studying in a group
 ::: panel-tabset
 ## All Users
 
@@ -78,10 +71,7 @@ frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, GRAD Users", "g
 ```
 :::
 
-## Course Reserves Textbooks
-
-How often do you visit the library for ***borrowing textbooks from course reserves***?
-
+### Borrowing textbooks from course reserves
 ::: panel-tabset
 ## All Users
 
@@ -107,10 +97,7 @@ frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, GRAD Us
 ```
 :::
 
-## General Borrowing & Returning
-
-How often do you visit the library for ***borrowing or returning books (other than textbooks)***?
-
+### Borrowing or returning books (other than textbooks)
 ::: panel-tabset
 ## All Users
 
@@ -136,10 +123,7 @@ frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, GRAD Us
 ```
 :::
 
-## Help from Librarian
-
-How often do you visit the library for ***getting help from a librarian***?
-
+### Getting help from a librarian
 ::: panel-tabset
 ## All Users
 
@@ -162,7 +146,7 @@ frequencyQuestion(userData, "frequencyGetHelp", "Getting Help, GRAD Users", "gra
 ```
 :::
 
-## Viewing an Exhibit
+### Viewing an exhibit
 
 How often do you visit the library for ***viewing an exhibit***?
 
@@ -197,10 +181,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 ```
 :::
 
-## Printing
-
-How often do you visit the library for ***printing***?
-
+### Printing
 ::: panel-tabset
 ## All Users
 
@@ -228,10 +209,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 ```
 :::
 
-## Library Computers
-
-How often do you visit the library for ***library computers (other than printing)***?
-
+### Library computers (other than printing)
 ::: panel-tabset
 ## All Users
 
@@ -263,10 +241,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 ```
 :::
 
-## IT Service Desk
-
-How often do you visit the library for ***getting help from the IT Service Desk***?
-
+### Getting help from the IT Service Desk
 ::: panel-tabset
 ## All Users
 
@@ -297,10 +272,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 ```
 :::
 
-## Writing Center
-
-How often do you visit the library for ***getting help at the Writing Center***?
-
+## Getting help at the Writing Center
 ::: panel-tabset
 ## All Users
 
