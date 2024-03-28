@@ -93,6 +93,85 @@ bookQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnl
   
 }
 
+libClassQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnly=FALSE){
+  
+  #remove na rows for selected column:
+  dataNaRemoved<-data %>% drop_na(columnName)
+  
+  if(casOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="CAS")
+  }
+  if(gradOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="GRAD")
+  } 
+  
+  total<-nrow(dataNaRemoved)
+  dataNaRemoved
+  
+  all<-dataNaRemoved %>%
+    group_by(!!sym(columnName)) %>%
+    summarize(count=n(), percent=round(n()/total*100, digits=1)) %>%
+    arrange(match(!!sym(columnName), c("Not often enough", "Often enough", "Too often", "No librarians have ever met with any of my classes")))
+  
+  # turn this into factors, so it preserves the order on the charts
+  all[[columnName]] <- factor(all[[columnName]], levels = all[[columnName]])
+  #return (all)
+  
+  chart<-all %>% 
+    ggplot(mapping=aes(x=.data[[columnName]], y=percent, fill=.data[[columnName]]))+
+    geom_bar(stat="identity")+
+    geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) + 
+    labs(title=paste("Frequency of librarian class visits, ",label), y="Percent of respondants", x="", fill=paste("Frequency of librarian class visits"), caption=paste("n=", total, sep = ""))+
+    theme(axis.text.x = element_blank())
+  
+  print(chart)
+  ggsave(chart, file=paste("../output/",fileName))
+  
+  
+}
+
+
+comfortQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnly=FALSE){
+  
+  #remove na rows for selected column:
+  dataNaRemoved<-data %>% drop_na(columnName)
+  
+  if(casOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="CAS")
+  }
+  if(gradOnly==TRUE){
+    dataNaRemoved<- dataNaRemoved %>%
+      filter(campus=="GRAD")
+  } 
+  
+  total<-nrow(dataNaRemoved)
+  dataNaRemoved
+  
+  all<-dataNaRemoved %>%
+    group_by(!!sym(columnName)) %>%
+    summarize(count=n(), percent=round(n()/total*100, digits=1)) %>%
+    arrange(match(!!sym(columnName), c("Strongly agree", "Somewhat agree", "Disagree")))
+  
+  # turn this into factors, so it preserves the order on the charts
+  all[[columnName]] <- factor(all[[columnName]], levels = all[[columnName]])
+  #return (all)
+  
+  chart<-all %>% 
+    ggplot(mapping=aes(x=.data[[columnName]], y=percent, fill=.data[[columnName]]))+
+    geom_bar(stat="identity")+
+    geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) + 
+    labs(title=paste("Frequency of librarian class visits, ",label), y="Percent of respondants", x="", fill=paste("Frequency of librarian class visits"), caption=paste("n=", total, sep = ""))+
+    theme(axis.text.x = element_blank())
+  
+  print(chart)
+  ggsave(chart, file=paste("../output/",fileName))
+  
+  
+}
+
 
 frequencyQuestionCampus<-function(data, columnName, label, fileName){
   
