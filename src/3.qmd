@@ -6,9 +6,6 @@ execute:
   warning: false
 ---
 
-
-
-
 ***3. Do you live on campus?***
 
 -output

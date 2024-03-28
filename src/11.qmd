@@ -6,9 +6,6 @@ execute:
   warning: false
 ---
 
-
-
-
 ***10. Which book format do you prefer?***
 
 -output

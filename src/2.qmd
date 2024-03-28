@@ -6,9 +6,6 @@ execute:
   warning: false
 ---
 
-
-
-
 ***2. Area(s) of study. (Please write "undecided" if not sure.)***
 
 -output

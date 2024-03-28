@@ -6,11 +6,7 @@ execute:
   warning: false
 ---
 
-
-
-
 ***4. How often do you visit the library for the following needs?***
-
 
 ```{r}
 source("functions.R")

@@ -5,13 +5,12 @@ execute:
   echo: false
   warning: false
 ---
+
 ```{r}
 source("functions.R")
 loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
-
-
 
 ***8. When starting a research project, how useful do you find the following tools?***
 

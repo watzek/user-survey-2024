@@ -6,11 +6,7 @@ execute:
   warning: false
 ---
 
-
-
-
 ***5. Do the following resources meet your needs?***
-
 
 ```{r}
 source("functions.R")
@@ -21,8 +17,6 @@ userData<-read_csv("../data/anonymizedData.csv")
 Users were asked to indicate the extent to which certain services met their needs.
 
 ### Quiet Study Spaces
-
-
 
 ::: panel-tabset
 ## All Users
