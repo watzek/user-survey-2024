@@ -602,6 +602,7 @@
     "section": "",
     "text": "5. Do the following resources meet your needs?\nUsers were asked to indicate the extent to which certain services met their needs.",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -612,6 +613,7 @@
     "section": "Collaborative Study Spaces",
     "text": "Collaborative Study Spaces\nDo the following resources meet your needs? Collaborative study spaces\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -622,6 +624,7 @@
     "section": "Reservable Study Rooms",
     "text": "Reservable Study Rooms\nDo the following resources meet your needs? Reservable Study Rooms\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -632,6 +635,7 @@
     "section": "Textbooks from Course Reserves",
     "text": "Textbooks from Course Reserves\nDo the following resources meet your needs? Textbooks from Course Reserves\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -642,6 +646,7 @@
     "section": "Summit Borrowing",
     "text": "Summit Borrowing\nDo the following resources meet your needs? Summit Borrowing\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -652,6 +657,7 @@
     "section": "Interlibrary Loan",
     "text": "Interlibrary Loan\nDo the following resources meet your needs? Interlibrary Loan\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -662,6 +668,7 @@
     "section": "Library printers",
     "text": "Library printers\nDo the following resources meet your needs? Library printers\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -672,6 +679,7 @@
     "section": "Library computers",
     "text": "Library computers\nDo the following resources meet your needs? Library computers\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -682,6 +690,7 @@
     "section": "Library scanners",
     "text": "Library scanners\nDo the following resources meet your needs? Library scanners\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -692,6 +701,7 @@
     "section": "AV/tech borrowing",
     "text": "AV/tech borrowing\nDo the following resources meet your needs? AV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "5. Do resources meet your needs"
     ]
   },
@@ -702,6 +712,7 @@
     "section": "",
     "text": "6. Please share any comments about the resources listed above. (in reference to question 5)\n-output",
     "crumbs": [
+      "Survey Questions",
       "6. Comments on resources"
     ]
   },
@@ -712,6 +723,7 @@
     "section": "",
     "text": "8. When starting a research project, how useful do you find the following tools?",
     "crumbs": [
+      "Survey Questions",
       "8. Usefulness of tools"
     ]
   },
@@ -722,6 +734,7 @@
     "section": "Primo Catalog",
     "text": "Primo Catalog\nWhen starting a research project, how useful do you find the following tools? *Primo (the library catalog)\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "8. Usefulness of tools"
     ]
   },
@@ -732,6 +745,7 @@
     "section": "Library databases other than Primo",
     "text": "Library databases other than Primo\nWhen starting a research project, how useful do you find the following tools? Library databases other than Primo (e.g. JSTOR, EBSCO)\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "8. Usefulness of tools"
     ]
   },
@@ -742,6 +756,7 @@
     "section": "Google",
     "text": "Google\nWhen starting a research project, how useful do you find the following tools? Google\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "8. Usefulness of tools"
     ]
   },
@@ -752,6 +767,7 @@
     "section": "Google Scholar",
     "text": "Google Scholar\nWhen starting a research project, how useful do you find the following tools? Google Scholar\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
+      "Survey Questions",
       "8. Usefulness of tools"
     ]
   },
@@ -762,6 +778,7 @@
     "section": "",
     "text": "7. What are your preferred areas to study in the library? Why?\n-output",
     "crumbs": [
+      "Survey Questions",
       "7. Preferred study areas"
     ]
   },
@@ -792,6 +809,7 @@
     "section": "",
     "text": "9. What other research tools do you rely on?\n-output",
     "crumbs": [
+      "Survey Questions",
       "9. Reseach tools relied upon"
     ]
   },
@@ -822,6 +840,7 @@
     "section": "",
     "text": "10. Which book format do you prefer?\n-output",
     "crumbs": [
+      "Survey Questions",
       "11. Preferred boook format"
     ]
   },
@@ -842,6 +861,7 @@
     "section": "",
     "text": "10. Are there research tools or resources lacking in our collection that you would like to see added?\n-output",
     "crumbs": [
+      "Survey Questions",
       "10. Resources / tools suggestions"
     ]
   },
