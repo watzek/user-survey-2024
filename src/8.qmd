@@ -15,6 +15,7 @@ userData<-read_csv("../data/anonymizedData.csv")
 ***When starting a research project, how useful do you find the following tools?***
 
 ### Primo Catalog
+
 ::: panel-tabset
 ## All Users
 
@@ -37,6 +38,7 @@ usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jp
 :::
 
 ### Library databases other than Primo (e.g. JSTOR, EBSCO)
+
 ::: panel-tabset
 ## All Users
 
@@ -59,6 +61,7 @@ usefulQuestion(userData, "usefulDatabases", "Library Databases, GRAD Users", "gr
 :::
 
 ### Google
+
 ::: panel-tabset
 ## All Users
 
@@ -81,6 +84,7 @@ usefulQuestion(userData, "usefulGoogle", "Google, GRAD Users", "gradusefulGoogle
 :::
 
 ### Google Scholar
+
 ::: panel-tabset
 ## All Users
 

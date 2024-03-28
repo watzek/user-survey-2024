@@ -6,6 +6,6 @@ execute:
   warning: false
 ---
 
-***10. Are there research tools or resources lacking in our collection that you would like to see added?***
+***Are there research tools or resources lacking in our collection that you would like to see added?***
 
 -output

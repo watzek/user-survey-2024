@@ -14,8 +14,8 @@ loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
 
-
 ### Studying individually
+
 ::: panel-tabset
 ## All Users
 
@@ -46,6 +46,7 @@ frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD 
 :::
 
 ### Studying in a group
+
 ::: panel-tabset
 ## All Users
 
@@ -72,6 +73,7 @@ frequencyQuestion(userData, "frequencyGroupStudy", "Group Study, GRAD Users", "g
 :::
 
 ### Borrowing textbooks from course reserves
+
 ::: panel-tabset
 ## All Users
 
@@ -98,6 +100,7 @@ frequencyQuestion(userData, "frequencyCourseReserves", "Course Reserves, GRAD Us
 :::
 
 ### Borrowing or returning books (other than textbooks)
+
 ::: panel-tabset
 ## All Users
 
@@ -124,6 +127,7 @@ frequencyQuestion(userData, "frequencyBorrowingBooks", "Borrowing Books, GRAD Us
 :::
 
 ### Getting help from a librarian
+
 ::: panel-tabset
 ## All Users
 
@@ -182,6 +186,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 :::
 
 ### Printing
+
 ::: panel-tabset
 ## All Users
 
@@ -210,6 +215,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 :::
 
 ### Library computers (other than printing)
+
 ::: panel-tabset
 ## All Users
 
@@ -242,6 +248,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 :::
 
 ### Getting help from the IT Service Desk
+
 ::: panel-tabset
 ## All Users
 
@@ -273,6 +280,7 @@ frequencyQuestion(userData, col, paste(lab,", GRAD Users"), paste("grad",im,".jp
 :::
 
 ## Getting help at the Writing Center
+
 ::: panel-tabset
 ## All Users
 

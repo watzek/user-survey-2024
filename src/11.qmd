@@ -6,6 +6,41 @@ execute:
   warning: false
 ---
 
-***10. Which book format do you prefer?***
+***Which book format do you prefer?***
 
--output
+```{r}
+source("functions.R")
+loadPackages()
+```
+
+```{r}
+userData<-read_csv("../data/anonymizedData.csv")
+```
+
+```{r}
+
+
+```
+
+::: panel-tabset
+## All Users
+
+```{r}
+
+
+bookQuestion(userData, "preferredBookFormat", "all users", "allBookPref.jpg", casOnly=FALSE, gradOnly=FALSE)
+
+```
+
+## Undergraduates
+
+```{r}
+bookQuestion(userData, "preferredBookFormat", "CAS users", "casBookPref.jpg", casOnly=TRUE, gradOnly=FALSE)
+```
+
+## Graduates
+
+```{r}
+bookQuestion(userData, "preferredBookFormat", "GRAD users", "gradBookPref.jpg", casOnly=FALSE, gradOnly=TRUE)
+```
+:::

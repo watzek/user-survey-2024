@@ -6,6 +6,6 @@ execute:
   warning: false
 ---
 
-***9. What other research tools do you rely on?***
+***What other research tools do you rely on?***
 
 -output

@@ -6,6 +6,6 @@ execute:
   warning: false
 ---
 
-***12. Please share any comments about the research tools and resources listed above.***
+***Please share any comments about the research tools and resources listed above.***
 
 -output
