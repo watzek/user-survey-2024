@@ -37,6 +37,14 @@ frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, CAS U
 ```{r}
 frequencyQuestion(userData, "frequencyIndividualStudy", "Individual Study, GRAD Users", "gradIndStudy.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
+
+## On/off campus
+
+```{r}
+#frequencyQuestionCampus(userData, "frequencyIndividualStudy", "Individual Study", "indStudyCampus.jpg")
+
+
+```
 :::
 
 ## Group Study

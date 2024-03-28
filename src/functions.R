@@ -50,6 +50,37 @@ frequencyQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gr
     labs(title=paste("Frequency of Watzek Visits for",label), y="Percent of respondants", x="", fill=paste("Frequency"), caption=paste("n=", total, sep = ""))
   
   print(chart)
+  ggsave(chart, file=paste("../output/",fileName))
+  
+  
+}
+
+frequencyQuestionCampus<-function(data, columnName, label, fileName){
+  
+  #remove na rows for selected column:
+  dataNaRemoved<-data %>% drop_na(columnName)
+  
+
+  
+  total<-nrow(dataNaRemoved)
+  dataNaRemoved
+  
+  all<-dataNaRemoved %>%
+    group_by(onCampus, !!sym(columnName)) %>%
+    summarize(count=n(), percent=round(n()/total*100, digits=1)) %>%
+    arrange(match(!!sym(columnName), c("Daily", "Weekly", "Monthly", "Once a semester", "Never")))
+  
+  # turn this into factors, so it preserves the order on the charts
+  all[[columnName]] <- factor(all[[columnName]], levels = all[[columnName]])
+  #return (all)
+  
+  chart<-all %>% 
+    ggplot(mapping=aes(x=.data[[columnName]], y=percent, fill=.data[[columnName]]))+
+    geom_bar(stat="identity")+
+    geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) + 
+    labs(title=paste("Frequency of Watzek Visits for",label), y="Percent of respondants", x="", fill=paste("Frequency"), caption=paste("n=", total, sep = ""))
+  
+  print(chart)
   ggsave(chart, file=paste("output/",fileName))
   
   
@@ -88,7 +119,7 @@ needsQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOn
     labs(title=paste("Meets needs for",label), y="Percent of respondants", x="", fill=paste("Extent of Meeting Needs"), caption=paste("n=", total, sep = ""))
   
   print(chart)
-  ggsave(chart, file=paste("output/",fileName))
+  ggsave(chart, file=paste("../output/",fileName))
   
 }
 

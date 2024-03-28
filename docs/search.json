@@ -64,7 +64,7 @@
     "href": "frequency.html#individual-study",
     "title": "Frequency of Visits",
     "section": "Individual Study",
-    "text": "Individual Study\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduates",
+    "text": "Individual Study\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduatesOn/off campus",
     "crumbs": [
       "Frequency of Visits"
     ]
@@ -224,10 +224,7 @@
     "href": "needs.html",
     "title": "Meeting Needs",
     "section": "",
-    "text": "Users were asked to indicate the extent to which certain services met their needs.",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Users were asked to indicate the extent to which certain services met their needs."
   },
   {
     "objectID": "observable.html",
@@ -241,20 +238,14 @@
     "href": "needs.html#quiet-study-spaces",
     "title": "Meeting Needs",
     "section": "Quiet Study Spaces",
-    "text": "Quiet Study Spaces\nDo the following resources meet your needs? Quiet study spaces\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Quiet Study Spaces\nDo the following resources meet your needs? Quiet study spaces\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#collaborative-study-spaces",
     "href": "needs.html#collaborative-study-spaces",
     "title": "Meeting Needs",
     "section": "Collaborative Study Spaces",
-    "text": "Collaborative Study Spaces\nDo the following resources meet your needs? Collaborative study spaces\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Collaborative Study Spaces\nDo the following resources meet your needs? Collaborative study spaces\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#study-rooms",
@@ -271,80 +262,56 @@
     "href": "needs.html#reservable-study-rooms",
     "title": "Meeting Needs",
     "section": "Reservable Study Rooms",
-    "text": "Reservable Study Rooms\nDo the following resources meet your needs? Reservable Study Rooms\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Reservable Study Rooms\nDo the following resources meet your needs? Reservable Study Rooms\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#textbooks-from-course-reserves",
     "href": "needs.html#textbooks-from-course-reserves",
     "title": "Meeting Needs",
     "section": "Textbooks from Course Reserves",
-    "text": "Textbooks from Course Reserves\nDo the following resources meet your needs? Textbooks from Course Reserves\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Textbooks from Course Reserves\nDo the following resources meet your needs? Textbooks from Course Reserves\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#summit-borrowing",
     "href": "needs.html#summit-borrowing",
     "title": "Meeting Needs",
     "section": "Summit Borrowing",
-    "text": "Summit Borrowing\nDo the following resources meet your needs? Summit Borrowing\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Summit Borrowing\nDo the following resources meet your needs? Summit Borrowing\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#interlibrary-loan",
     "href": "needs.html#interlibrary-loan",
     "title": "Meeting Needs",
     "section": "Interlibrary Loan",
-    "text": "Interlibrary Loan\nDo the following resources meet your needs? Interlibrary Loan\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Interlibrary Loan\nDo the following resources meet your needs? Interlibrary Loan\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#library-printers",
     "href": "needs.html#library-printers",
     "title": "Meeting Needs",
     "section": "Library printers",
-    "text": "Library printers\nDo the following resources meet your needs? Library printers\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Library printers\nDo the following resources meet your needs? Library printers\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#library-computers",
     "href": "needs.html#library-computers",
     "title": "Meeting Needs",
     "section": "Library computers",
-    "text": "Library computers\nDo the following resources meet your needs? Library computers\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Library computers\nDo the following resources meet your needs? Library computers\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#library-scanners",
     "href": "needs.html#library-scanners",
     "title": "Meeting Needs",
     "section": "Library scanners",
-    "text": "Library scanners\nDo the following resources meet your needs? Library scanners\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "Library scanners\nDo the following resources meet your needs? Library scanners\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "needs.html#avtech-borrowing",
     "href": "needs.html#avtech-borrowing",
     "title": "Meeting Needs",
     "section": "AV/tech borrowing",
-    "text": "AV/tech borrowing\nDo the following resources meet your needs? AV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates",
-    "crumbs": [
-      "Meeting Needs"
-    ]
+    "text": "AV/tech borrowing\nDo the following resources meet your needs? AV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates"
   },
   {
     "objectID": "useful.html",
@@ -474,6 +441,253 @@
     "text": "Library Website\nHow useful do you find the following forms of assistance? Other information on the library website\n\nAll UsersUndergraduatesGraduates",
     "crumbs": [
       "Usefulness of Forms of Assistance"
+    ]
+  },
+  {
+    "objectID": "src/1.html",
+    "href": "src/1.html",
+    "title": "1. Year in school",
+    "section": "",
+    "text": "1. Which of the following best describes you?\n-output"
+  },
+  {
+    "objectID": "src/1.html#year-in-school",
+    "href": "src/1.html#year-in-school",
+    "title": "1. Year in school",
+    "section": "",
+    "text": "1. Which of the following best describes you?\n-output",
+    "crumbs": [
+      "1. Year in school"
+    ]
+  },
+  {
+    "objectID": "src/3.html",
+    "href": "src/3.html",
+    "title": "3. On/off campus",
+    "section": "",
+    "text": "3. Do you live on campus?\n-output",
+    "crumbs": [
+      "3. On/off campus"
+    ]
+  },
+  {
+    "objectID": "src/2.html",
+    "href": "src/2.html",
+    "title": "2. Area of study",
+    "section": "",
+    "text": "2. Area(s) of study. (Please write “undecided” if not sure.)\n-output",
+    "crumbs": [
+      "2. Area of study"
+    ]
+  },
+  {
+    "objectID": "src/4.html",
+    "href": "src/4.html",
+    "title": "4. Frequency of visits",
+    "section": "",
+    "text": "4. How often do you visit the library for the following needs?\nUsers were asked to indicate the their self-reported frequency of visits to Watzek Library based upon a number of factors:",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#individual-study",
+    "href": "src/4.html#individual-study",
+    "title": "4. Frequency of visits",
+    "section": "Individual Study",
+    "text": "Individual Study\nHow often do you visit the library for studying individually?\n\nAll UsersUndergraduatesGraduatesOn/off campus",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#group-study",
+    "href": "src/4.html#group-study",
+    "title": "4. Frequency of visits",
+    "section": "Group Study",
+    "text": "Group Study\nHow often do you visit the library for studying in a group?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#course-reserves-textbooks",
+    "href": "src/4.html#course-reserves-textbooks",
+    "title": "4. Frequency of visits",
+    "section": "Course Reserves Textbooks",
+    "text": "Course Reserves Textbooks\nHow often do you visit the library for borrowing textbooks from course reserves?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#general-borrowing-returning",
+    "href": "src/4.html#general-borrowing-returning",
+    "title": "4. Frequency of visits",
+    "section": "General Borrowing & Returning",
+    "text": "General Borrowing & Returning\nHow often do you visit the library for borrowing or returning books (other than textbooks)?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#help-from-librarian",
+    "href": "src/4.html#help-from-librarian",
+    "title": "4. Frequency of visits",
+    "section": "Help from Librarian",
+    "text": "Help from Librarian\nHow often do you visit the library for getting help from a librarian?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#viewing-an-exhibit",
+    "href": "src/4.html#viewing-an-exhibit",
+    "title": "4. Frequency of visits",
+    "section": "Viewing an Exhibit",
+    "text": "Viewing an Exhibit\nHow often do you visit the library for viewing an exhibit?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#printing",
+    "href": "src/4.html#printing",
+    "title": "4. Frequency of visits",
+    "section": "Printing",
+    "text": "Printing\nHow often do you visit the library for printing?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#library-computers",
+    "href": "src/4.html#library-computers",
+    "title": "4. Frequency of visits",
+    "section": "Library Computers",
+    "text": "Library Computers\nHow often do you visit the library for library computers (other than printing)?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#it-service-desk",
+    "href": "src/4.html#it-service-desk",
+    "title": "4. Frequency of visits",
+    "section": "IT Service Desk",
+    "text": "IT Service Desk\nHow often do you visit the library for getting help from the IT Service Desk?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/4.html#writing-center",
+    "href": "src/4.html#writing-center",
+    "title": "4. Frequency of visits",
+    "section": "Writing Center",
+    "text": "Writing Center\nHow often do you visit the library for getting help at the Writing Center?\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "4. Frequency of visits"
+    ]
+  },
+  {
+    "objectID": "src/5.html",
+    "href": "src/5.html",
+    "title": "5. Do resources meet your needs",
+    "section": "",
+    "text": "5. Do the following resources meet your needs?\nUsers were asked to indicate the extent to which certain services met their needs.",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#collaborative-study-spaces",
+    "href": "src/5.html#collaborative-study-spaces",
+    "title": "5. Do resources meet your needs",
+    "section": "Collaborative Study Spaces",
+    "text": "Collaborative Study Spaces\nDo the following resources meet your needs? Collaborative study spaces\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#reservable-study-rooms",
+    "href": "src/5.html#reservable-study-rooms",
+    "title": "5. Do resources meet your needs",
+    "section": "Reservable Study Rooms",
+    "text": "Reservable Study Rooms\nDo the following resources meet your needs? Reservable Study Rooms\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#textbooks-from-course-reserves",
+    "href": "src/5.html#textbooks-from-course-reserves",
+    "title": "5. Do resources meet your needs",
+    "section": "Textbooks from Course Reserves",
+    "text": "Textbooks from Course Reserves\nDo the following resources meet your needs? Textbooks from Course Reserves\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#summit-borrowing",
+    "href": "src/5.html#summit-borrowing",
+    "title": "5. Do resources meet your needs",
+    "section": "Summit Borrowing",
+    "text": "Summit Borrowing\nDo the following resources meet your needs? Summit Borrowing\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#interlibrary-loan",
+    "href": "src/5.html#interlibrary-loan",
+    "title": "5. Do resources meet your needs",
+    "section": "Interlibrary Loan",
+    "text": "Interlibrary Loan\nDo the following resources meet your needs? Interlibrary Loan\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#library-printers",
+    "href": "src/5.html#library-printers",
+    "title": "5. Do resources meet your needs",
+    "section": "Library printers",
+    "text": "Library printers\nDo the following resources meet your needs? Library printers\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#library-computers",
+    "href": "src/5.html#library-computers",
+    "title": "5. Do resources meet your needs",
+    "section": "Library computers",
+    "text": "Library computers\nDo the following resources meet your needs? Library computers\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#library-scanners",
+    "href": "src/5.html#library-scanners",
+    "title": "5. Do resources meet your needs",
+    "section": "Library scanners",
+    "text": "Library scanners\nDo the following resources meet your needs? Library scanners\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
+    ]
+  },
+  {
+    "objectID": "src/5.html#avtech-borrowing",
+    "href": "src/5.html#avtech-borrowing",
+    "title": "5. Do resources meet your needs",
+    "section": "AV/tech borrowing",
+    "text": "AV/tech borrowing\nDo the following resources meet your needs? AV/tech borrowing (headphones, laptops, etc.)\n\nAll UsersUndergraduatesGraduates",
+    "crumbs": [
+      "5. Do resources meet your needs"
     ]
   }
 ]

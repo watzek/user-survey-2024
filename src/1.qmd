@@ -1,0 +1,14 @@
+---
+title: "1. Year in school"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+
+
+
+***1. Which of the following best describes you?***
+
+-output

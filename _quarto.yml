@@ -11,11 +11,12 @@ website:
     search: true   
     contents:
       - href: index.qmd
-      - href: demographics.qmd
-      - href: frequency.qmd
-      - href: needs.qmd
-      - href: useful.qmd
-      - href: useful2.qmd
+      - href: src/1.qmd
+      - href: src/2.qmd
+      - href: src/3.qmd
+      - href: src/4.qmd
+      - href: src/5.qmd
+
       
 format:
   html:

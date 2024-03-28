@@ -1,0 +1,14 @@
+---
+title: "3. On/off campus"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+
+
+
+***3. Do you live on campus?***
+
+-output

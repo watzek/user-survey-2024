@@ -16,7 +16,7 @@ Users were asked how useful various tools were when starting a research project.
 
 ## Primo Catalog
 
-When starting a research project, how useful do you find the following tools? ***Primo (the library catalog)**
+When starting a research project, how useful do you find the following tools? \***Primo (the library catalog)**
 
 ::: panel-tabset
 ## All Users
@@ -38,7 +38,6 @@ usefulQuestion(userData, "usefulPrimo", "Primo,  CAS Users", "casUsefulPrimo.jpg
 usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
-
 
 ## Library databases other than Primo
 
@@ -64,7 +63,6 @@ usefulQuestion(userData, "usefulDatabases", "Library Databases,  CAS Users", "ca
 usefulQuestion(userData, "usefulDatabases", "Library Databases, GRAD Users", "gradusefulDatabases.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
-
 
 ## Google
 
