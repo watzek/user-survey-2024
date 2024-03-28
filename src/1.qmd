@@ -23,6 +23,8 @@ totalUsers<-nrow(userData)
 
 ***1. Which of the following best describes you?***
 
+
+### Year
 ```{r}
 # year in school
 userData %>% 
@@ -33,4 +35,19 @@ userData %>%
   rename("Year in School"=yearInSchool) %>%
   kbl() %>%
   kable_styling()
+```
+
+
+### Campus
+
+```{r}
+userData %>%
+  group_by(campus) %>%
+  summarize(count=n(), percent=round(count/totalUsers*100, 1)) %>%
+  arrange(desc(count))%>%
+  add_row(campus = "Total", count = totalUsers, percent = 100) %>%
+  rename("Campus"=campus) %>%
+  kbl() %>%
+  kable_styling()
+  
 ```
