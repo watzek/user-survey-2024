@@ -8,4 +8,6 @@ execute:
 
 ***What are your preferred areas to study in the library? Why?***
 
--output
+Students enjoy having a variety of spaces to suit individual and group work. More responded to this question than to any other open-ended prompt on the survey (177). Twenty-five percent of responses listed two or more locations, often with an explanation of their different purposes. Favorite places to study include the atrium (51 mentions), the silent sections (50 mentions), reservable study rooms (29 mentions), and individual carrels (20 mentions). The Gold Zone is a small sleeper hit with nine specific mentions. The furniture in the new data science center was the subject of five comments, all of them appreciative.
+
+Sound was the most frequently cited reason for selecting a study space, with 85 mentions. While some respondents noted that their preferences depend on the task at hand, a clear majority expressed a preference for quiet or silence. Other influential factors included the proximity of windows (50 comments), soft seating (18 comments), and privacy (16 mentions). Lesser considerations included quality of artificial lighting, outlets, whiteboards, plants, and proximity to the service desk or restrooms.
