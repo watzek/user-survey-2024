@@ -16,6 +16,7 @@ website:
       - href: src/3.qmd
       - href: src/4.qmd
       - href: src/5.qmd
+      - href: src/6.qmd
 
       
 format:

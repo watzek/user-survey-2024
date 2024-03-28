@@ -1,0 +1,11 @@
+---
+title: "6. Comments on resources"
+editor: visual
+execute:
+  echo: false
+  warning: false
+---
+
+***6. Please share any comments about the resources listed above. (in reference to [question 5](../src/5.qmd))***
+
+-output
