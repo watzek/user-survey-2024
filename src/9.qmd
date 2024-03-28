@@ -13,7 +13,7 @@ execute:
 Students were asked to rate the usefulness of four tools—Primo, library databases, Google, and Google Scholar—for starting a research project, and then were asked three open-ended questions about research. A dwindling minority of respondents engaged with these questions:
 
 |                                                                                                   |               |
-|---------------------------------------------------------------------------------------------------|---------------|
+|---------------------------------------------------------|---------------|
 | What other research tools do you rely on?                                                         | 102 responses |
 | Are there research tools or resources lacking in our collection that you would like to see added? | 83 responses  |
 | Please share any comments about the research tools and resources listed above.                    | 54 responses  |
@@ -42,12 +42,12 @@ Several comments from graduate students suggested frustrations that are harder t
 
 > I love primo. you guys should make primo merch.
 
-I really enjoy the databases such as Primo or Jstor
+> I really enjoy the databases such as Primo or Jstor
 
-“I’m really grateful for the sheer number of resources we have!”
+> I’m really grateful for the sheer number of resources we have!
 
-“I LOVE THE RESOURCE LIBRARIANS!!!!!!!!!!!!!!!!!!!!!!!!!!!!”
+> I LOVE THE RESOURCE LIBRARIANS!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-“Having Elaine come to my research class and showing us resources and tools for research was very helpful”
+> Having Elaine come to my research class and showing us resources and tools for research was very helpful
 
-“I love accessing articles online!!!”
+> I love accessing articles online!!!
