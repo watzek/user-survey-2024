@@ -8,6 +8,7 @@ website:
     style: "docked"
     collapse-level: 1
     logo: image/owl.png
+    logo-href: src/1.qmd
     search: true   
     contents:
       - href: intro.qmd
