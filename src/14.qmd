@@ -34,3 +34,73 @@ libClassQuestion(userData, "frequencyLibrarianClass", "CAS users", "casFreqLibCl
 libClassQuestion(userData, "frequencyLibrarianClass", "GRAD users", "gradFreqLibClass.jpg", casOnly=FALSE, gradOnly=TRUE)
 ```
 :::
+
+
+### Majors of those who reported no librarian class visits
+
+```{r}
+usersNoLibClass<-userData %>%
+  filter(frequencyLibrarianClass=="No librarians have ever met with any of my classes")
+
+usersNoLibClass %>% group_by(major) %>%
+  summarize(count=n()) %>%
+  arrange(desc(count)) %>%
+  head(8) %>%
+  kbl() %>%
+  kable_styling()
+
+
+```
+
+
+
+```{r}
+userDataClass <- userData %>%
+  mutate(frequencyLibrarianClass = case_when(
+    frequencyLibrarianClass == "No librarians have ever met with any of my classes" ~ "Never",
+    frequencyLibrarianClass == "Often enough" ~ "hasMet",
+    frequencyLibrarianClass == "Not often enough" ~ "hasMet",
+    frequencyLibrarianClass == "Too often" ~ "hasMet",
+
+    # Add more cases as needed
+    TRUE ~ frequencyLibrarianClass  # Keep the original value if it doesn't match any case
+  ),
+  usefulResearchHelpDesk = case_when(
+    usefulResearchHelpDesk == "Have not used" ~ "nonUser",
+    usefulResearchHelpDesk == "I'm not familiar with this" ~ ""
+    
+  ))
+
+
+
+
+
+```
+
+```{r}
+dataNaRemoved<-userDataClass %>% drop_na(usefulResearchHelpDesk, frequencyLibrarianClass)
+total<-nrow(dataNaRemoved)
+
+dataNaRemoved %>%
+  filter(usefulResearchHelpDesk=="I'm not familiar with this" | usefulResearchHelpDesk=="Have not used") %>%
+  group_by(frequencyLibrarianClass, usefulResearchHelpDesk) %>%
+  summarize(count=n(), percent=round(n()/total*100, digits=1))
+
+
+
+
+```
+
+```{r}
+dataNaRemoved<-userDataClass %>% drop_na(usefulConsultation, frequencyLibrarianClass)
+total<-nrow(dataNaRemoved)
+
+dataNaRemoved %>%
+  filter(usefulConsultation=="I'm not familiar with this" | usefulConsultation=="Have not used") %>%
+  group_by(frequencyLibrarianClass, usefulConsultation) %>%
+  summarize(count=n(), percent=round(n()/total*100, digits=1))
+```
+
+
+
+

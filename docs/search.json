@@ -143,7 +143,7 @@
     "href": "conclusions.html",
     "title": "Conclusions",
     "section": "",
-    "text": "content here",
+    "text": "Students are mostly enthusiastic about the library. They value it as a space and appreciate the help they receive. \nThere are some concerns about noise. We may want to clarify the proper sound level in parts of the library or work on making the quiet areas quieter. Since the color-coded room system is not well understood we might try to make the silent and quiet areas stand out more.\nGrad students have trouble coming to Watzek in person. We may want to establish more of a presence at the grad campus. \nA considerable number of students are frustrated with a lack of access to full text and a considerable number are not familiar with ILL and/or Summit (20%). We should think about ways of increasing exposure to resource sharing.\nIn some fields/classes multiple copies of textbooks on reserve might be useful.\nBoth print and ebook formats are appreciated.\nThe web site is now seven years old and could be ready for some updating.",
     "crumbs": [
       "Conclusions"
     ]
@@ -219,7 +219,7 @@
     "href": "src/14.html",
     "title": "14. Librarian class visits",
     "section": "",
-    "text": "How often have your classes met with librarians, either in the library classroom or as a part of your regular class?\n\nAll UsersUndergraduatesGraduates",
+    "text": "How often have your classes met with librarians, either in the library classroom or as a part of your regular class?\n\nAll UsersUndergraduatesGraduates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajors of those who reported no librarian class visits\n\n\n\n\n\n\nmajor\ncount\n\n\n\n\nPMHC\n16\n\n\nUndecided\n6\n\n\nSOAN\n5\n\n\nPMHCA\n4\n\n\nBCMB\n3\n\n\nBIO\n3\n\n\nSPSY\n3\n\n\nENG\n2\n\n\n\n\n\n\n\n\n\n\n# A tibble: 4 × 4\n# Groups:   frequencyLibrarianClass [2]\n  frequencyLibrarianClass usefulResearchHelpDesk     count percent\n  &lt;chr&gt;                   &lt;chr&gt;                      &lt;int&gt;   &lt;dbl&gt;\n1 Never                   Have not used                 31    14.2\n2 Never                   I'm not familiar with this     4     1.8\n3 hasMet                  Have not used                 52    23.7\n4 hasMet                  I'm not familiar with this     8     3.7\n\n\n\n\n# A tibble: 4 × 4\n# Groups:   frequencyLibrarianClass [2]\n  frequencyLibrarianClass usefulConsultation         count percent\n  &lt;chr&gt;                   &lt;chr&gt;                      &lt;int&gt;   &lt;dbl&gt;\n1 Never                   Have not used                 39    17.9\n2 Never                   I'm not familiar with this     8     3.7\n3 hasMet                  Have not used                 74    33.9\n4 hasMet                  I'm not familiar with this    19     8.7",
     "crumbs": [
       "Survey Questions",
       "14. Librarian class visits"
