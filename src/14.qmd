@@ -14,8 +14,6 @@ userData<-read_csv("../data/anonymizedData.csv")
 
 ***How often have your classes met with librarians, either in the library classroom or as a part of your regular class?***
 
-
-
 ::: panel-tabset
 ## All Users
 
@@ -36,4 +34,3 @@ libClassQuestion(userData, "frequencyLibrarianClass", "CAS users", "casFreqLibCl
 libClassQuestion(userData, "frequencyLibrarianClass", "GRAD users", "gradFreqLibClass.jpg", casOnly=FALSE, gradOnly=TRUE)
 ```
 :::
-

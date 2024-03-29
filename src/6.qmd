@@ -8,4 +8,20 @@ execute:
 
 ***Please share any comments about the resources listed above. (in reference to [question 5](../src/5.qmd))***
 
--output
+The first section of the survey asked a series of questions about study spaces, course reserves, resource sharing, printing, computing, and circulating equipment. Respondents were then invited to comment on any of these library resources, eliciting a total of 80 responses. The greatest number of these were positive comments about the library and its staff in general. 
+
+> “They’re all very awesome.”
+
+> “I love the library!!! Everyone who works there is so incredibly helpful and awesome.”
+
+> “Everything is so accessible! Yay!”
+
+> “Love Watzek!”
+
+> “I have found everyone at the library super helpful!”
+
+Course textbooks were mentioned most frequently in terms of specific resources. Seven of the ten comments about textbooks came from graduate students noting a need for additional copies. While some of these comments specifically referenced course reserves, others did not distinguish between print reserves, circulating copies, and e-book access. Elsewhere in the survey, graduate students noted that it is inconvenient for them to visit the library in person. Regardless of format, they seem to expect on some level that the library will supply required texts. As one stated, “There should be more than one reserve book to be able to read from reserves, or check out. Or, a digital copy should be made available to check out. Some chosen course textbooks are expensive and unavailable. Libraries are meant to help ease the financial burden by helping students access these.” We may want to conduct a follow-up assessment about the feasibility of a satellite, self-service reserve collection for the graduate school. 
+
+Noise, study rooms, and printing were the other topics most frequently commented upon. While expressing appreciation for collaborative study spaces, respondents also remarked on issues connected with them: noise from collaborative areas carries into quiet zones, and the distinction between individual and collaborative space is unclear. Similarly, opinions on the study rooms were mixed, with several respondents noting problems with the reservation system: reservations must be made at least an hour in advance, it is difficult to tell if a room has been reserved, and it is awkward for reservation holders to ask someone to vacate a room. While two respondents expressed appreciation for free printing, the majority of remarks about the printers were complaints about how frequently they are out of order (or out of toner).
+
+Though mentioned less often, Summit, interlibrary loan, and delivery service to the graduate campus received consistently positive reviews. Students appreciated the equipment available to borrow from the service desk, but would like longer loan periods. One person described library seating as “not fat-friendly,” and said that this has discouraged their use of the library as a study space—a critique that we should keep in mind as we work to be more inclusive.

@@ -8,4 +8,7 @@ execute:
 
 ***Are there research tools or resources lacking in our collection that you would like to see added?***
 
--output
+Of the 83 respondents to the question about tools or resources lacking in the collection, more than half (51) indicated that they saw no such gaps, with several expressing appreciation for having “thorough access to a lot of academic resources.” Some respondents named existing resources; several ideas were not clearly feasible, such as adding the Internet Archive. Within the realm of the feasible, commenters expressed interest in having access to APA PsycTests, more STEM resources, mental health journals, resources for school psychology, “a larger children’s fiction section for leisurely reading,” and a handful of even more specific resources. Access to “textbooks” came up three times, with one person expressing a wish for more copies of required course textbooks and another for more “e-textbooks for courses.” As above, it seems likely but not entirely clear that course reserves are indicated.
+
+\
+Several comments on this question imply a need for more instruction on how to use “the research resources.” One person suggested adding “a brief 101 on how best to use Primo search.” The number of resources erroneously named as unavailable—Science, Nature, JSTOR, the New York Times, Science Direct, Taylor & Francis, and loanable headphones—also suggests room for improvement in how we advertise and communicate about resources. One person complained about the level of access to Special Collections, “especially in regards to this History of our school as a colonial project.”
