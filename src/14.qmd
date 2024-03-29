@@ -53,23 +53,56 @@ usersNoLibClass %>% group_by(major) %>%
 ```
 
 
+### Comparing rates of service use, for those who have and have not had library instruction
+
+
 
 ```{r}
 userDataClass <- userData %>%
   mutate(frequencyLibrarianClass = case_when(
-    frequencyLibrarianClass == "No librarians have ever met with any of my classes" ~ "Never",
-    frequencyLibrarianClass == "Often enough" ~ "hasMet",
-    frequencyLibrarianClass == "Not often enough" ~ "hasMet",
-    frequencyLibrarianClass == "Too often" ~ "hasMet",
+    frequencyLibrarianClass == "No librarians have ever met with any of my classes" ~ "No Librarian class visits",
+    frequencyLibrarianClass == "Often enough" ~ "One or more Librarian class visits",
+    frequencyLibrarianClass == "Not often enough" ~ "One or more Librarian class visits",
+    frequencyLibrarianClass == "Too often" ~ "One or more Librarian class visits",
 
     # Add more cases as needed
     TRUE ~ frequencyLibrarianClass  # Keep the original value if it doesn't match any case
   ),
   usefulResearchHelpDesk = case_when(
     usefulResearchHelpDesk == "Have not used" ~ "nonUser",
-    usefulResearchHelpDesk == "I'm not familiar with this" ~ ""
+    usefulResearchHelpDesk == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
     
-  ))
+  ),
+    usefulChat = case_when(
+    usefulChat == "Have not used" ~ "nonUser",
+    usefulChat == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
+    
+  ),
+      usefulConsultation = case_when(
+    usefulConsultation == "Have not used" ~ "nonUser",
+    usefulConsultation == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
+    
+  ),
+    usefulLibGuide = case_when(
+    usefulLibGuide == "Have not used" ~ "nonUser",
+    usefulLibGuide == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
+    
+  ),
+      usefulVideoTutorial = case_when(
+    usefulVideoTutorial == "Have not used" ~ "nonUser",
+    usefulVideoTutorial == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
+  ),
+       usefulLibraryWebsite = case_when(
+    usefulLibraryWebsite == "Have not used" ~ "nonUser",
+    usefulLibraryWebsite == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
+  ) 
+  )
 
 
 
@@ -77,30 +110,109 @@ userDataClass <- userData %>%
 
 ```
 
+
 ```{r}
+
 dataNaRemoved<-userDataClass %>% drop_na(usefulResearchHelpDesk, frequencyLibrarianClass)
-total<-nrow(dataNaRemoved)
+group_totals <- dataNaRemoved %>%
+  group_by(frequencyLibrarianClass) %>%
+  summarize(total_group = n())
 
-dataNaRemoved %>%
-  filter(usefulResearchHelpDesk=="I'm not familiar with this" | usefulResearchHelpDesk=="Have not used") %>%
+
+summary_data <- dataNaRemoved %>%
+  filter(usefulResearchHelpDesk=="Used Service") %>%
   group_by(frequencyLibrarianClass, usefulResearchHelpDesk) %>%
-  summarize(count=n(), percent=round(n()/total*100, digits=1))
+  summarize(count = n()) %>%
+  # Join with group totals
+  left_join(group_totals, by = "frequencyLibrarianClass") %>%
+  # Calculate percent per group total
+  mutate(percent = round(count / total_group * 100, digits = 1)) %>%
+  # Drop total_group column if not needed
+  select(-total_group)
 
 
+ggplot(data=summary_data, mapping=aes(x=frequencyLibrarianClass, y=percent, fill=frequencyLibrarianClass))+
+  geom_bar(stat="identity")+
+  labs(title="Percent of users who ask questions at the Service Desk", x="Librarian class visits", fill="Librarian class visits")
 
+```
+
+
+```{r}
+
+dataNaRemoved<-userDataClass %>% drop_na(usefulConsultation, frequencyLibrarianClass)
+group_totals <- dataNaRemoved %>%
+  group_by(frequencyLibrarianClass) %>%
+  summarize(total_group = n())
+
+
+summary_data <- dataNaRemoved %>%
+  filter(usefulConsultation=="Used Service") %>%
+  group_by(frequencyLibrarianClass, usefulConsultation) %>%
+  summarize(count = n()) %>%
+  # Join with group totals
+  left_join(group_totals, by = "frequencyLibrarianClass") %>%
+  # Calculate percent per group total
+  mutate(percent = round(count / total_group * 100, digits = 1)) %>%
+  # Drop total_group column if not needed
+  select(-total_group)
+
+
+ggplot(data=summary_data, mapping=aes(x=frequencyLibrarianClass, y=percent, fill=frequencyLibrarianClass))+
+  geom_bar(stat="identity")+
+  labs(title="Percent of users who use Research Consultations", x="Librarian class visits", fill="Librarian class visits")
 
 ```
 
 ```{r}
-dataNaRemoved<-userDataClass %>% drop_na(usefulConsultation, frequencyLibrarianClass)
-total<-nrow(dataNaRemoved)
 
-dataNaRemoved %>%
-  filter(usefulConsultation=="I'm not familiar with this" | usefulConsultation=="Have not used") %>%
-  group_by(frequencyLibrarianClass, usefulConsultation) %>%
-  summarize(count=n(), percent=round(n()/total*100, digits=1))
+dataNaRemoved<-userDataClass %>% drop_na(usefulChat, frequencyLibrarianClass)
+group_totals <- dataNaRemoved %>%
+  group_by(frequencyLibrarianClass) %>%
+  summarize(total_group = n())
+
+
+summary_data <- dataNaRemoved %>%
+  filter(usefulChat=="Used Service") %>%
+  group_by(frequencyLibrarianClass, usefulChat) %>%
+  summarize(count = n()) %>%
+  # Join with group totals
+  left_join(group_totals, by = "frequencyLibrarianClass") %>%
+  # Calculate percent per group total
+  mutate(percent = round(count / total_group * 100, digits = 1)) %>%
+  # Drop total_group column if not needed
+  select(-total_group)
+
+
+ggplot(data=summary_data, mapping=aes(x=frequencyLibrarianClass, y=percent, fill=frequencyLibrarianClass))+
+  geom_bar(stat="identity")+
+  geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
+  labs(title="Percent of users who use Online Chat", x="Librarian class visits", fill="Librarian class visits")
+
 ```
+```{r}
+
+dataNaRemoved<-userDataClass %>% drop_na(usefulLibGuide, frequencyLibrarianClass)
+group_totals <- dataNaRemoved %>%
+  group_by(frequencyLibrarianClass) %>%
+  summarize(total_group = n())
 
 
+summary_data <- dataNaRemoved %>%
+  filter(usefulLibGuide=="Used Service") %>%
+  group_by(frequencyLibrarianClass, usefulLibGuide) %>%
+  summarize(count = n()) %>%
+  # Join with group totals
+  left_join(group_totals, by = "frequencyLibrarianClass") %>%
+  # Calculate percent per group total
+  mutate(percent = round(count / total_group * 100, digits = 1)) %>%
+  # Drop total_group column if not needed
+  select(-total_group)
 
 
+ggplot(data=summary_data, mapping=aes(x=frequencyLibrarianClass, y=percent, fill=frequencyLibrarianClass))+
+  geom_bar(stat="identity")+
+  geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
+  labs(title="Percent of users who use LibGuides", x="Librarian class visits", fill="Librarian class visits")
+
+```
