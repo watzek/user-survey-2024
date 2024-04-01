@@ -243,6 +243,12 @@ needsQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOn
 
 usefulQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradOnly=FALSE){
   
+  colors <- c("Very useful" = "#e60049", 
+              "Somewhat useful" = "#0bb4ff", 
+              "I'm not familiar with this" = "#50e991", 
+              "Have not used" = "#e6d800", 
+              "Not at all useful"="#9b19f5")
+  
   
   dataNaRemoved<-data %>% drop_na(columnName)
   
@@ -268,6 +274,7 @@ usefulQuestion<-function(data, columnName, label, fileName, casOnly=FALSE, gradO
   chart<-all %>% 
     ggplot(mapping=aes(x=.data[[columnName]], y=percent, fill=.data[[columnName]]))+
     geom_bar(stat="identity")+
+    scale_fill_manual(values = colors) +
     geom_text(aes(label = paste(percent, "%")), vjust = -0.5, size = 3) +
     theme(axis.text.x=element_blank())+
     labs(title=paste("Usefulness of",label), y="Percent of respondants", x="", fill=paste("Degree of Usefulness"), caption=paste("n=", total, sep = ""))
