@@ -101,6 +101,11 @@ userDataClass <- userData %>%
     usefulLibraryWebsite == "Have not used" ~ "nonUser",
     usefulLibraryWebsite == "I'm not familiar with this" ~ "nonUser",
     TRUE ~ "Used Service"
+  ),
+         usefulLibrarianClass = case_when(
+    usefulLibrarianClass == "Have not used" ~ "nonUser",
+    usefulLibrarianClass == "I'm not familiar with this" ~ "nonUser",
+    TRUE ~ "Used Service"
   ) 
   )
 
@@ -216,3 +221,8 @@ ggplot(data=summary_data, mapping=aes(x=frequencyLibrarianClass, y=percent, fill
   labs(title="Percent of users who use LibGuides", x="Librarian class visits", fill="Librarian class visits")
 
 ```
+
+
+
+
+
