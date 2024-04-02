@@ -5,15 +5,17 @@ execute:
   echo: false
   warning: false
 ---
+
 ```{r}
 source("functions.R")
 loadPackages()
 userData<-read_csv("../data/anonymizedData.csv")
 ```
+
 ***Please indicate how much you agree with the following statements:***
 
-
 ### I feel welcome in Watzek Library
+
 ::: panel-tabset
 ## All Users
 
@@ -36,26 +38,24 @@ comfortQuestion(userData, "agreeWelcomeInLibrary", "GRAD users", "gradWelcome.jp
 :::
 
 ### I feel comfortable asking questions of library staff
+
 ::: panel-tabset
 ## All Users
 
 ```{r}
-comfortQuestion(userData, "agreeComfortableAskingQuestions", "all users", "allAskingQuestions.jpg", casOnly=FALSE, gradOnly=FALSE)
+comfortAskingQuestions(userData, "agreeComfortableAskingQuestions", "all users", "allAskingQuestions.jpg", casOnly=FALSE, gradOnly=FALSE)
 
 ```
 
 ## Undergraduates
 
 ```{r}
-comfortQuestion(userData, "agreeComfortableAskingQuestions", "CAS users", "casAskingQuestions.jpg", casOnly=TRUE, gradOnly=FALSE)
+comfortAskingQuestions(userData, "agreeComfortableAskingQuestions", "CAS users", "casAskingQuestions.jpg", casOnly=TRUE, gradOnly=FALSE)
 ```
 
 ## Graduates
 
 ```{r}
-comfortQuestion(userData, "agreeComfortableAskingQuestions", "GRAD users", "gradAskingQuestions.jpg", casOnly=FALSE, gradOnly=TRUE)
+comfortAskingQuestions(userData, "agreeComfortableAskingQuestions", "GRAD users", "gradAskingQuestions.jpg", casOnly=FALSE, gradOnly=TRUE)
 ```
 :::
-
-
-

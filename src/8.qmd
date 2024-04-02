@@ -20,20 +20,20 @@ userData<-read_csv("../data/anonymizedData.csv")
 ## All Users
 
 ```{r}
-usefulQuestion(userData, "usefulPrimo", "Primo, All Users", "allUsefulPrimo.jpg", casOnly=FALSE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulPrimo", "Primo, All Users", "allUsefulPrimo.jpg", casOnly=FALSE, gradOnly = FALSE)
 
 ```
 
 ## Undergraduates
 
 ```{r}
-usefulQuestion(userData, "usefulPrimo", "Primo,  CAS Users", "casUsefulPrimo.jpg", casOnly=TRUE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulPrimo", "Primo,  CAS Users", "casUsefulPrimo.jpg", casOnly=TRUE, gradOnly = FALSE)
 ```
 
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion2(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
 
@@ -43,20 +43,20 @@ usefulQuestion(userData, "usefulPrimo", "Primo, GRAD Users", "gradusefulPrimo.jp
 ## All Users
 
 ```{r}
-usefulQuestion(userData, "usefulDatabases", "Library Databases, All Users", "allUsefulDatabases.jpg", casOnly=FALSE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulDatabases", "Library Databases, All Users", "allUsefulDatabases.jpg", casOnly=FALSE, gradOnly = FALSE)
 
 ```
 
 ## Undergraduates
 
 ```{r}
-usefulQuestion(userData, "usefulDatabases", "Library Databases,  CAS Users", "casUsefulDatabases.jpg", casOnly=TRUE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulDatabases", "Library Databases,  CAS Users", "casUsefulDatabases.jpg", casOnly=TRUE, gradOnly = FALSE)
 ```
 
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulDatabases", "Library Databases, GRAD Users", "gradusefulDatabases.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion2(userData, "usefulDatabases", "Library Databases, GRAD Users", "gradusefulDatabases.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
 
@@ -66,20 +66,20 @@ usefulQuestion(userData, "usefulDatabases", "Library Databases, GRAD Users", "gr
 ## All Users
 
 ```{r}
-usefulQuestion(userData, "usefulGoogle", "Google, All Users", "allUsefulGoogle.jpg", casOnly=FALSE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulGoogle", "Google, All Users", "allUsefulGoogle.jpg", casOnly=FALSE, gradOnly = FALSE)
 
 ```
 
 ## Undergraduates
 
 ```{r}
-usefulQuestion(userData, "usefulGoogle", "Google,  CAS Users", "casUsefulGoogle.jpg", casOnly=TRUE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulGoogle", "Google,  CAS Users", "casUsefulGoogle.jpg", casOnly=TRUE, gradOnly = FALSE)
 ```
 
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulGoogle", "Google, GRAD Users", "gradusefulGoogle.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion2(userData, "usefulGoogle", "Google, GRAD Users", "gradusefulGoogle.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
 
@@ -89,19 +89,19 @@ usefulQuestion(userData, "usefulGoogle", "Google, GRAD Users", "gradusefulGoogle
 ## All Users
 
 ```{r}
-usefulQuestion(userData, "usefulGoogleScholar", "Google Scholar, All Users", "allUsefulGoogleScholar.jpg", casOnly=FALSE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulGoogleScholar", "Google Scholar, All Users", "allUsefulGoogleScholar.jpg", casOnly=FALSE, gradOnly = FALSE)
 
 ```
 
 ## Undergraduates
 
 ```{r}
-usefulQuestion(userData, "usefulGoogleScholar", "Google Scholar,  CAS Users", "casUsefulGoogleScholar.jpg", casOnly=TRUE, gradOnly = FALSE)
+usefulQuestion2(userData, "usefulGoogleScholar", "Google Scholar,  CAS Users", "casUsefulGoogleScholar.jpg", casOnly=TRUE, gradOnly = FALSE)
 ```
 
 ## Graduates
 
 ```{r}
-usefulQuestion(userData, "usefulGoogleScholar", "Google Scholar, GRAD Users", "gradusefulGoogleScholar.jpg", casOnly=FALSE, gradOnly = TRUE)
+usefulQuestion2(userData, "usefulGoogleScholar", "Google Scholar, GRAD Users", "gradusefulGoogleScholar.jpg", casOnly=FALSE, gradOnly = TRUE)
 ```
 :::
